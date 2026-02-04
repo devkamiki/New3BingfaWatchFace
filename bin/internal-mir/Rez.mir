@@ -1,0 +1,1575 @@
+[ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,9,27,39]; @symbol_type<0> = [ResourceId,9,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 12; @symbol_moduledef = [Layouts,12,11,18]; ]
+    module Layouts {
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 13; @symbol_functiondef = [WatchFace,13,17,26]; @symbol_param<0> = [dc,13,27,29]; @symbol_param<0>_type<0> = [Graphics,13,33,41]; @symbol_param<0>_type<1> = [Dc,13,42,44]; @symbol_return<0> = [Array,13,49,54]; @symbol_return<1> = [WatchUi,13,55,62]; @symbol_return<2> = [Drawable,13,63,71]; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_home_user_New3BingfaWatchFace_new3bingfawatchface_bin_gen_006_B4656_00_source_Rez_mcgen_13_73_19_8_start:
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 14 12 ]
+            [ "_home_user_New3BingfaWatchFace_new3bingfawatchface_bin_gen_006_B4656_00_source_Rez_mcgen_13_73_19_8_start" "_home_user_New3BingfaWatchFace_new3bingfawatchface_bin_gen_006_B4656_00_source_Rez_mcgen_13_73_19_8_stop" ]
+            %rez_cmp_local_custom_drawable_11939594661139614796.1 = local;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 14 16 66 ];
+            symbol [ Background %tmp.4 14 73 83 ];
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_11939594661139614796.1 %tmp.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 14 16 66 ];
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 16 12 ]
+            [ "_home_user_New3BingfaWatchFace_new3bingfawatchface_bin_gen_006_B4656_00_source_Rez_mcgen_13_73_19_8_start" "_home_user_New3BingfaWatchFace_new3bingfawatchface_bin_gen_006_B4656_00_source_Rez_mcgen_13_73_19_8_stop" ]
+            %rez_cmp_local_text_TimeLabel.2 = local;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.2 16 16 44 ];
+            symbol [ WatchUi %tmp.7 16 51 58 ];
+            %tmp.7 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.8 16 59 63 ];
+            %tmp.8 = getv function ? %tmp.7 :Text;
+            %tmp.9 = newd 6;
+            %tmp.11 = const :identifier;
+            symbol [ identifier %tmp.11 16 66 76 const ];
+            %tmp.12 = "TimeLabel";
+            %tmp.13 = dup %tmp.9;
+            %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+            %tmp.16 = const :color;
+            symbol [ color %tmp.16 16 92 97 const ];
+            symbol [ Graphics %tmp.17 16 99 107 ];
+            %tmp.17 = getm $.Toybox.Graphics;
+            symbol [ COLOR_BLUE %tmp.18 16 108 118 ];
+            %tmp.18 = getv %tmp.17 :COLOR_BLUE;
+            %tmp.19 = dup %tmp.14;
+            %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+            %tmp.22 = const :locX;
+            symbol [ locX %tmp.22 16 121 125 const ];
+            %tmp.23 = lgetv %dc;
+            symbol [ dc %tmp.23 16 128 130 ];
+            symbol [ getWidth %tmp.24 16 131 139 ];
+            %tmp.24 = getv function %tmp.23 :getWidth;
+            %tmp.25 = invoke %tmp.23 %tmp.24();
+            %tmp.26 = 0.5;
+            %tmp.27 = mul %tmp.25 %tmp.26;
+            %tmp.28 = dup %tmp.20;
+            %tmp.29 = aputv %tmp.28 %tmp.22 %tmp.27;
+            %tmp.31 = const :locY;
+            symbol [ locY %tmp.31 16 151 155 const ];
+            %tmp.32 = lgetv %dc;
+            symbol [ dc %tmp.32 16 159 161 ];
+            symbol [ getHeight %tmp.33 16 162 171 ];
+            %tmp.33 = getv function %tmp.32 :getHeight;
+            %tmp.34 = invoke %tmp.32 %tmp.33();
+            %tmp.35 = lgetv %dc;
+            symbol [ dc %tmp.35 16 176 178 ];
+            symbol [ getFontHeight %tmp.36 16 179 192 ];
+            %tmp.36 = getv function %tmp.35 :getFontHeight;
+            symbol [ Graphics %tmp.37 16 193 201 ];
+            %tmp.37 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.38 16 202 212 ];
+            %tmp.38 = getv %tmp.37 :FONT_LARGE;
+            %tmp.39 = invoke %tmp.35 %tmp.36(%tmp.38);
+            %tmp.40 = sub %tmp.34 %tmp.39;
+            %tmp.41 = 0.5;
+            %tmp.42 = mul %tmp.40 %tmp.41;
+            %tmp.43 = dup %tmp.29;
+            %tmp.44 = aputv %tmp.43 %tmp.31 %tmp.42;
+            %tmp.46 = const :justification;
+            symbol [ justification %tmp.46 16 224 237 const ];
+            symbol [ Graphics %tmp.47 16 239 247 ];
+            %tmp.47 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.48 16 248 267 ];
+            %tmp.48 = getv %tmp.47 :TEXT_JUSTIFY_CENTER;
+            %tmp.49 = dup %tmp.44;
+            %tmp.50 = aputv %tmp.49 %tmp.46 %tmp.48;
+            %tmp.52 = const :font;
+            symbol [ font %tmp.52 16 270 274 const ];
+            symbol [ Graphics %tmp.53 16 276 284 ];
+            %tmp.53 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.54 16 285 295 ];
+            %tmp.54 = getv %tmp.53 :FONT_LARGE;
+            %tmp.55 = dup %tmp.50;
+            %tmp.56 = aputv %tmp.55 %tmp.52 %tmp.54;
+            %tmp.5 = newc %tmp.8 (%tmp.56);
+            lputv %rez_cmp_local_text_TimeLabel.2 %tmp.5;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.2 16 16 44 ];
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 18 12 ]
+            %tmp.57 = newa 2 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.57 18 105 110 ];
+            symbol [ WatchUi %tmp.57 18 111 118 ];
+            symbol [ Drawable %tmp.57 18 119 127 ];
+            %tmp.58 = lgetv %rez_cmp_local_custom_drawable_11939594661139614796.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %tmp.58 18 20 70 ];
+            %tmp.59 = dup %tmp.57;
+            %tmp.60 = aputv %tmp.59 0 %tmp.58;
+            %tmp.61 = lgetv %rez_cmp_local_text_TimeLabel.2;
+            symbol [ rez_cmp_local_text_TimeLabel %tmp.61 18 72 100 ];
+            %tmp.62 = dup %tmp.60;
+            %tmp.63 = aputv %tmp.62 1 %tmp.61;
+            ret %tmp.63;
+_home_user_New3BingfaWatchFace_new3bingfawatchface_bin_gen_006_B4656_00_source_Rez_mcgen_13_73_19_8_stop:
+        }
+    }
+    [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 22; @symbol_moduledef = [Strings,22,11,18]; ]
+    module Strings {
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 22; ]
+        <init> {
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [ColorLightGray,23,27,41]; @symbol_type<0> = [ResourceId,23,45,55]; ]
+        var ColorLightGray as ResourceId;
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [ColorBlue,24,27,36]; @symbol_type<0> = [ResourceId,24,40,50]; ]
+        var ColorBlue as ResourceId;
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [ColorRed,25,27,35]; @symbol_type<0> = [ResourceId,25,39,49]; ]
+        var ColorRed as ResourceId;
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 26; @position = 27; initialized = true; @symbol_vardef = [ForegroundColorTitle,26,27,47]; @symbol_type<0> = [ResourceId,26,51,61]; ]
+        var ForegroundColorTitle as ResourceId;
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 27; @position = 27; initialized = true; @symbol_vardef = [BackgroundColorTitle,27,27,47]; @symbol_type<0> = [ResourceId,27,51,61]; ]
+        var BackgroundColorTitle as ResourceId;
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 28; @position = 27; initialized = true; @symbol_vardef = [ColorDarkGray,28,27,40]; @symbol_type<0> = [ResourceId,28,44,54]; ]
+        var ColorDarkGray as ResourceId;
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 29; @position = 27; initialized = true; @symbol_vardef = [MilitaryFormatTitle,29,27,46]; @symbol_type<0> = [ResourceId,29,50,60]; ]
+        var MilitaryFormatTitle as ResourceId;
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 30; @position = 27; initialized = true; @symbol_vardef = [ColorBlack,30,27,37]; @symbol_type<0> = [ResourceId,30,41,51]; ]
+        var ColorBlack as ResourceId;
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 31; @position = 27; initialized = true; @symbol_vardef = [ColorWhite,31,27,37]; @symbol_type<0> = [ResourceId,31,41,51]; ]
+        var ColorWhite as ResourceId;
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; @symbol_vardef = [AppName,32,27,34]; @symbol_type<0> = [ResourceId,32,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 35; @symbol_moduledef = [Styles,35,11,17]; ]
+    module Styles {
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 35; ]
+        <init> {
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 36; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,36,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 36; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 37; @position = 18; @symbol_constdef = [exclude,37,18,25]; @symbol_type<0> = [Boolean,37,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 40; @symbol_moduledef = [system_size__menu_header,40,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 40; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 41; @position = 18; @symbol_constdef = [width,41,18,23]; @symbol_type<0> = [Number,41,27,33]; ]
+            const width as Number = 390;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 42; @position = 18; @symbol_constdef = [height,42,18,24]; @symbol_type<0> = [Number,42,28,34]; ]
+            const height as Number = 130;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 45; @symbol_moduledef = [system_loc__hint_button_left_bottom,45,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 45; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 46; @position = 18; @symbol_constdef = [exclude,46,18,25]; @symbol_type<0> = [Boolean,46,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 49; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,49,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 49; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 50; @position = 18; @symbol_constdef = [exclude,50,18,25]; @symbol_type<0> = [Boolean,50,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 53; @symbol_moduledef = [prompt_loc__body_no_title,53,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 53; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 54; @position = 18; @symbol_constdef = [x,54,18,19]; @symbol_type<0> = [Number,54,23,29]; ]
+            const x as Number = 40;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 55; @position = 18; @symbol_constdef = [y,55,18,19]; @symbol_type<0> = [Number,55,23,29]; ]
+            const y as Number = 95;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 58; @symbol_moduledef = [system_icon_dark__about,58,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 58; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 59; @position = 18; @symbol_constdef = [filename,59,18,26]; @symbol_type<0> = [String,59,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__about.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 60; @position = 18; @symbol_constdef = [compress,60,18,26]; @symbol_type<0> = [String,60,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 61; @position = 18; @symbol_constdef = [dithering,61,18,27]; @symbol_type<0> = [String,61,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 62; @position = 18; @symbol_constdef = [automaticPalette,62,18,34]; @symbol_type<0> = [String,62,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 65; @symbol_moduledef = [system_icon_light__question,65,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 65; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 66; @position = 18; @symbol_constdef = [filename,66,18,26]; @symbol_type<0> = [String,66,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__question.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 67; @position = 18; @symbol_constdef = [compress,67,18,26]; @symbol_type<0> = [String,67,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 68; @position = 18; @symbol_constdef = [dithering,68,18,27]; @symbol_type<0> = [String,68,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 69; @position = 18; @symbol_constdef = [automaticPalette,69,18,34]; @symbol_type<0> = [String,69,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 72; @symbol_moduledef = [system_loc__hint_button_left_top,72,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 72; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 73; @position = 18; @symbol_constdef = [exclude,73,18,25]; @symbol_type<0> = [Boolean,73,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 76; @symbol_moduledef = [prompt_font__title,76,15,33]; ]
+        module prompt_font__title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 76; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 77 18 ]
+                symbol [ Graphics %tmp.64 77 34 42 ];
+                %tmp.64 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.65 77 43 62 ];
+                %tmp.65 = getv %tmp.64 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.66 77 63 71 ];
+                %tmp.66 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.67 77 72 92 ];
+                %tmp.67 = getv %tmp.66 :TEXT_JUSTIFY_VCENTER;
+                %tmp.68 = bitor %tmp.65 %tmp.67;
+                putv self :justification %tmp.68;
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 78 18 ]
+                symbol [ Graphics %tmp.69 78 25 33 ];
+                %tmp.69 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.70 78 34 44 ];
+                %tmp.70 = getv %tmp.69 :FONT_XTINY;
+                putv self :font %tmp.70;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 77; @position = 18; @symbol_constdef = [justification,77,18,31]; ]
+            const justification;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 78; @position = 18; @symbol_constdef = [font,78,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 81; @symbol_moduledef = [system_icon_dark__discard,81,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 81; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 82; @position = 18; @symbol_constdef = [filename,82,18,26]; @symbol_type<0> = [String,82,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__discard.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 83; @position = 18; @symbol_constdef = [compress,83,18,26]; @symbol_type<0> = [String,83,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 84; @position = 18; @symbol_constdef = [dithering,84,18,27]; @symbol_type<0> = [String,84,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 85; @position = 18; @symbol_constdef = [automaticPalette,85,18,34]; @symbol_type<0> = [String,85,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 88; @symbol_moduledef = [system_size__menu_item,88,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 88; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 89; @position = 18; @symbol_constdef = [width,89,18,23]; @symbol_type<0> = [Number,89,27,33]; ]
+            const width as Number = 390;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 90; @position = 18; @symbol_constdef = [height,90,18,24]; @symbol_type<0> = [Number,90,28,34]; ]
+            const height as Number = 130;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 93; @symbol_moduledef = [system_color_dark__text,93,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 93; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 95 18 ]
+                symbol [ Graphics %tmp.71 95 31 39 ];
+                %tmp.71 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.72 95 40 57 ];
+                %tmp.72 = getv %tmp.71 :COLOR_TRANSPARENT;
+                putv self :background %tmp.72;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [color,94,18,23]; @symbol_type<0> = [Number,94,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [background,95,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 98; @symbol_moduledef = [system_icon_destructive__discard,98,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 98; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [filename,99,18,26]; @symbol_type<0> = [String,99,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_destructive__discard.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 100; @position = 18; @symbol_constdef = [dithering,100,18,27]; @symbol_type<0> = [String,100,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 103; @symbol_moduledef = [system_icon_dark__hint_action_menu,103,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 103; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 104; @position = 18; @symbol_constdef = [filename,104,18,26]; @symbol_type<0> = [String,104,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 105; @position = 18; @symbol_constdef = [dithering,105,18,27]; @symbol_type<0> = [String,105,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 108; @symbol_moduledef = [prompt_size__title,108,15,33]; ]
+        module prompt_size__title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [width,109,18,23]; @symbol_type<0> = [Number,109,27,33]; ]
+            const width as Number = 272;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 110; @position = 18; @symbol_constdef = [height,110,18,24]; @symbol_type<0> = [Number,110,28,34]; ]
+            const height as Number = 70;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 113; @symbol_moduledef = [confirmation_font__body,113,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 113; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 114 18 ]
+                symbol [ Graphics %tmp.73 114 34 42 ];
+                %tmp.73 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.74 114 43 62 ];
+                %tmp.74 = getv %tmp.73 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.75 114 63 71 ];
+                %tmp.75 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.76 114 72 92 ];
+                %tmp.76 = getv %tmp.75 :TEXT_JUSTIFY_VCENTER;
+                %tmp.77 = bitor %tmp.74 %tmp.76;
+                putv self :justification %tmp.77;
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 115 18 ]
+                symbol [ Graphics %tmp.78 115 25 33 ];
+                %tmp.78 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.79 115 34 43 ];
+                %tmp.79 = getv %tmp.78 :FONT_TINY;
+                putv self :font %tmp.79;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 114; @position = 18; @symbol_constdef = [justification,114,18,31]; ]
+            const justification;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 115; @position = 18; @symbol_constdef = [font,115,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 118; @symbol_moduledef = [system_color_dark__background,118,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 118; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 119; @position = 18; @symbol_constdef = [color,119,18,23]; @symbol_type<0> = [Number,119,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 120; @position = 18; @symbol_constdef = [background,120,18,28]; @symbol_type<0> = [Number,120,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 123; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,123,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 123; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 124; @position = 18; @symbol_constdef = [exclude,124,18,25]; @symbol_type<0> = [Boolean,124,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 127; @symbol_moduledef = [system_size__launch_icon,127,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 127; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [scaleX,128,18,24]; @symbol_type<0> = [Number,128,28,34]; ]
+            const scaleX as Number = 56;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 129; @position = 18; @symbol_constdef = [scaleY,129,18,24]; @symbol_type<0> = [Number,129,28,34]; ]
+            const scaleY as Number = 56;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 130; @position = 18; @symbol_constdef = [scaleRelativeTo,130,18,33]; @symbol_type<0> = [String,130,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 133; @symbol_moduledef = [confirmation_input__confirm,133,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 133; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 134; @position = 18; @symbol_constdef = [y1,134,18,20]; @symbol_type<0> = [Number,134,24,30]; ]
+            const y1 as Number = 310;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 135; @position = 18; @symbol_constdef = [x1,135,18,20]; @symbol_type<0> = [Number,135,24,30]; ]
+            const x1 as Number = 100;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 136; @position = 18; @symbol_constdef = [y2,136,18,20]; @symbol_type<0> = [Number,136,24,30]; ]
+            const y2 as Number = 390;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 137; @position = 18; @symbol_constdef = [x2,137,18,20]; @symbol_type<0> = [Number,137,24,30]; ]
+            const x2 as Number = 290;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 140; @symbol_moduledef = [prompt_font__body_with_title,140,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 140; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 141 18 ]
+                symbol [ Graphics %tmp.80 141 34 42 ];
+                %tmp.80 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.81 141 43 62 ];
+                %tmp.81 = getv %tmp.80 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.81;
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 142 18 ]
+                symbol [ Graphics %tmp.82 142 25 33 ];
+                %tmp.82 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.83 142 34 43 ];
+                %tmp.83 = getv %tmp.82 :FONT_TINY;
+                putv self :font %tmp.83;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 141; @position = 18; @symbol_constdef = [justification,141,18,31]; ]
+            const justification;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [font,142,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 145; @symbol_moduledef = [confirmation_loc__body,145,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 145; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 146; @position = 18; @symbol_constdef = [x,146,18,19]; @symbol_type<0> = [Number,146,23,29]; ]
+            const x as Number = 40;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [y,147,18,19]; @symbol_type<0> = [Number,147,23,29]; ]
+            const y as Number = 95;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 150; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,150,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 150; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 151; @position = 18; @symbol_constdef = [exclude,151,18,25]; @symbol_type<0> = [Boolean,151,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 154; @symbol_moduledef = [prompt_color_dark__background,154,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 154; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 155; @position = 18; @symbol_constdef = [color,155,18,23]; @symbol_type<0> = [Number,155,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 156; @position = 18; @symbol_constdef = [background,156,18,28]; @symbol_type<0> = [Number,156,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 159; @symbol_moduledef = [system_icon_destructive__hint_action_menu,159,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 159; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 160; @position = 18; @symbol_constdef = [filename,160,18,26]; @symbol_type<0> = [String,160,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_destructive__hint_action_menu.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 161; @position = 18; @symbol_constdef = [dithering,161,18,27]; @symbol_type<0> = [String,161,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 164; @symbol_moduledef = [system_loc__hint_action_menu,164,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 164; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 165; @position = 18; @symbol_constdef = [x,165,18,19]; @symbol_type<0> = [Number,165,23,29]; ]
+            const x as Number = 336;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 166; @position = 18; @symbol_constdef = [y,166,18,19]; @symbol_type<0> = [Number,166,23,29]; ]
+            const y as Number = 74;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 169; @symbol_moduledef = [confirmation_icon__hint_confirm,169,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 169; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 170; @position = 18; @symbol_constdef = [filename,170,18,26]; @symbol_type<0> = [String,170,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 171; @position = 18; @symbol_constdef = [dithering,171,18,27]; @symbol_type<0> = [String,171,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 174; @symbol_moduledef = [system_loc__hint_button_left_middle,174,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 174; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 175; @position = 18; @symbol_constdef = [exclude,175,18,25]; @symbol_type<0> = [Boolean,175,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 178; @symbol_moduledef = [prompt_size__body_no_title,178,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 178; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 179; @position = 18; @symbol_constdef = [width,179,18,23]; @symbol_type<0> = [Number,179,27,33]; ]
+            const width as Number = 310;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 180; @position = 18; @symbol_constdef = [height,180,18,24]; @symbol_type<0> = [Number,180,28,34]; ]
+            const height as Number = 211;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 183; @symbol_moduledef = [system_icon_light__hint_button_left_top,183,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 183; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 184; @position = 18; @symbol_constdef = [exclude,184,18,25]; @symbol_type<0> = [Boolean,184,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 187; @symbol_moduledef = [prompt_color_light__background,187,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 187; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [color,188,18,23]; @symbol_type<0> = [Number,188,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 189; @position = 18; @symbol_constdef = [background,189,18,28]; @symbol_type<0> = [Number,189,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 192; @symbol_moduledef = [confirmation_input__delete,192,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 192; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 193; @position = 18; @symbol_constdef = [y1,193,18,20]; @symbol_type<0> = [Number,193,24,30]; ]
+            const y1 as Number = 0;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 194; @position = 18; @symbol_constdef = [x1,194,18,20]; @symbol_type<0> = [Number,194,24,30]; ]
+            const x1 as Number = 100;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 195; @position = 18; @symbol_constdef = [y2,195,18,20]; @symbol_type<0> = [Number,195,24,30]; ]
+            const y2 as Number = 90;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [x2,196,18,20]; @symbol_type<0> = [Number,196,24,30]; ]
+            const x2 as Number = 290;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 199; @symbol_moduledef = [system_icon_dark__hint_button_left_top,199,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 199; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 200; @position = 18; @symbol_constdef = [exclude,200,18,25]; @symbol_type<0> = [Boolean,200,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 203; @symbol_moduledef = [system_input__action_menu,203,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 203; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 204 18 ]
+                symbol [ WatchUi %tmp.84 204 27 34 ];
+                %tmp.84 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.85 204 35 44 ];
+                %tmp.85 = getv %tmp.84 :KEY_ENTER;
+                putv self :button %tmp.85;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 204; @position = 18; @symbol_constdef = [button,204,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 207; @symbol_moduledef = [system_icon_light__save,207,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 207; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 208; @position = 18; @symbol_constdef = [filename,208,18,26]; @symbol_type<0> = [String,208,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__save.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 209; @position = 18; @symbol_constdef = [compress,209,18,26]; @symbol_type<0> = [String,209,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 210; @position = 18; @symbol_constdef = [dithering,210,18,27]; @symbol_type<0> = [String,210,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [automaticPalette,211,18,34]; @symbol_type<0> = [String,211,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 214; @symbol_moduledef = [prompt_color_light__body,214,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 214; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 216 18 ]
+                symbol [ Graphics %tmp.86 216 31 39 ];
+                %tmp.86 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.87 216 40 57 ];
+                %tmp.87 = getv %tmp.86 :COLOR_TRANSPARENT;
+                putv self :background %tmp.87;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 215; @position = 18; @symbol_constdef = [color,215,18,23]; @symbol_type<0> = [Number,215,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [background,216,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 219; @symbol_moduledef = [system_loc__subwindow,219,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 219; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [exclude,220,18,25]; @symbol_type<0> = [Boolean,220,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 223; @symbol_moduledef = [system_icon_light__warning,223,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 223; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 224; @position = 18; @symbol_constdef = [filename,224,18,26]; @symbol_type<0> = [String,224,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__warning.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 225; @position = 18; @symbol_constdef = [compress,225,18,26]; @symbol_type<0> = [String,225,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 226; @position = 18; @symbol_constdef = [dithering,226,18,27]; @symbol_type<0> = [String,226,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [automaticPalette,227,18,34]; @symbol_type<0> = [String,227,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 230; @symbol_moduledef = [confirmation_color_light__body,230,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 230; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 232 18 ]
+                symbol [ Graphics %tmp.88 232 31 39 ];
+                %tmp.88 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.89 232 40 57 ];
+                %tmp.89 = getv %tmp.88 :COLOR_TRANSPARENT;
+                putv self :background %tmp.89;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 231; @position = 18; @symbol_constdef = [color,231,18,23]; @symbol_type<0> = [Number,231,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [background,232,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 235; @symbol_moduledef = [confirmation_icon_light__hint_keep,235,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 235; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 236; @position = 18; @symbol_constdef = [filename,236,18,26]; @symbol_type<0> = [String,236,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 237; @position = 18; @symbol_constdef = [dithering,237,18,27]; @symbol_type<0> = [String,237,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 240; @symbol_moduledef = [activity_color_light__background,240,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 240; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 241; @position = 18; @symbol_constdef = [color,241,18,23]; @symbol_type<0> = [Number,241,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 242; @position = 18; @symbol_constdef = [background,242,18,28]; @symbol_type<0> = [Number,242,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 245; @symbol_moduledef = [system_icon_positive__hint_button_right_top,245,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 245; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [filename,246,18,26]; @symbol_type<0> = [String,246,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 247; @position = 18; @symbol_constdef = [dithering,247,18,27]; @symbol_type<0> = [String,247,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 250; @symbol_moduledef = [system_size__screen,250,15,34]; ]
+        module system_size__screen {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 250; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [width,251,18,23]; @symbol_type<0> = [Number,251,27,33]; ]
+            const width as Number = 390;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 252; @position = 18; @symbol_constdef = [height,252,18,24]; @symbol_type<0> = [Number,252,28,34]; ]
+            const height as Number = 390;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 255; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,255,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 255; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [filename,256,18,26]; @symbol_type<0> = [String,256,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 257; @position = 18; @symbol_constdef = [dithering,257,18,27]; @symbol_type<0> = [String,257,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 260; @symbol_moduledef = [system_color_light__background,260,15,45]; ]
+        module system_color_light__background {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 260; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 261; @position = 18; @symbol_constdef = [color,261,18,23]; @symbol_type<0> = [Number,261,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 262; @position = 18; @symbol_constdef = [background,262,18,28]; @symbol_type<0> = [Number,262,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 265; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,265,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 265; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 266; @position = 18; @symbol_constdef = [filename,266,18,26]; @symbol_type<0> = [String,266,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 267; @position = 18; @symbol_constdef = [dithering,267,18,27]; @symbol_type<0> = [String,267,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 270; @symbol_moduledef = [confirmation_loc__hint_confirm,270,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 270; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 271; @position = 18; @symbol_constdef = [x,271,18,19]; @symbol_type<0> = [Number,271,23,29]; ]
+            const x as Number = 195;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 272; @position = 18; @symbol_constdef = [horizontalJustification,272,18,41]; @symbol_type<0> = [String,272,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 273; @position = 18; @symbol_constdef = [y,273,18,19]; @symbol_type<0> = [Number,273,23,29]; ]
+            const y as Number = 310;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 276; @symbol_moduledef = [activity_color_dark__text,276,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 276; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 278 18 ]
+                symbol [ Graphics %tmp.90 278 31 39 ];
+                %tmp.90 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.91 278 40 57 ];
+                %tmp.91 = getv %tmp.90 :COLOR_TRANSPARENT;
+                putv self :background %tmp.91;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 277; @position = 18; @symbol_constdef = [color,277,18,23]; @symbol_type<0> = [Number,277,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 278; @position = 18; @symbol_constdef = [background,278,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 281; @symbol_moduledef = [confirmation_input__keep,281,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 281; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 282; @position = 18; @symbol_constdef = [y1,282,18,20]; @symbol_type<0> = [Number,282,24,30]; ]
+            const y1 as Number = 310;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 283; @position = 18; @symbol_constdef = [x1,283,18,20]; @symbol_type<0> = [Number,283,24,30]; ]
+            const x1 as Number = 100;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [y2,284,18,20]; @symbol_type<0> = [Number,284,24,30]; ]
+            const y2 as Number = 390;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [x2,285,18,20]; @symbol_type<0> = [Number,285,24,30]; ]
+            const x2 as Number = 290;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 288; @symbol_moduledef = [prompt_loc__body_with_title,288,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 288; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [x,289,18,19]; @symbol_type<0> = [Number,289,23,29]; ]
+            const x as Number = 40;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [y,290,18,19]; @symbol_type<0> = [Number,290,23,29]; ]
+            const y as Number = 139;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 293; @symbol_moduledef = [system_icon_dark__search,293,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 293; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [filename,294,18,26]; @symbol_type<0> = [String,294,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__search.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 295; @position = 18; @symbol_constdef = [compress,295,18,26]; @symbol_type<0> = [String,295,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 296; @position = 18; @symbol_constdef = [dithering,296,18,27]; @symbol_type<0> = [String,296,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 297; @position = 18; @symbol_constdef = [automaticPalette,297,18,34]; @symbol_type<0> = [String,297,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 300; @symbol_moduledef = [activity_color_light__text,300,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 300; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 302 18 ]
+                symbol [ Graphics %tmp.92 302 31 39 ];
+                %tmp.92 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.93 302 40 57 ];
+                %tmp.93 = getv %tmp.92 :COLOR_TRANSPARENT;
+                putv self :background %tmp.93;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 301; @position = 18; @symbol_constdef = [color,301,18,23]; @symbol_type<0> = [Number,301,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 302; @position = 18; @symbol_constdef = [background,302,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 305; @symbol_moduledef = [confirmation_icon__hint_keep,305,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 305; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 306; @position = 18; @symbol_constdef = [filename,306,18,26]; @symbol_type<0> = [String,306,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 307; @position = 18; @symbol_constdef = [dithering,307,18,27]; @symbol_type<0> = [String,307,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 310; @symbol_moduledef = [system_icon_dark__save,310,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 310; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 311; @position = 18; @symbol_constdef = [filename,311,18,26]; @symbol_type<0> = [String,311,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__save.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 312; @position = 18; @symbol_constdef = [compress,312,18,26]; @symbol_type<0> = [String,312,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 313; @position = 18; @symbol_constdef = [dithering,313,18,27]; @symbol_type<0> = [String,313,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 314; @position = 18; @symbol_constdef = [automaticPalette,314,18,34]; @symbol_type<0> = [String,314,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 317; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,317,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 317; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [exclude,318,18,25]; @symbol_type<0> = [Boolean,318,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 321; @symbol_moduledef = [system_icon_light__search,321,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 321; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 322; @position = 18; @symbol_constdef = [filename,322,18,26]; @symbol_type<0> = [String,322,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__search.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [compress,323,18,26]; @symbol_type<0> = [String,323,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [dithering,324,18,27]; @symbol_type<0> = [String,324,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 325; @position = 18; @symbol_constdef = [automaticPalette,325,18,34]; @symbol_type<0> = [String,325,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 328; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,328,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 328; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 329; @position = 18; @symbol_constdef = [exclude,329,18,25]; @symbol_type<0> = [Boolean,329,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 332; @symbol_moduledef = [system_icon_positive__hint_button_left_top,332,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 332; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [exclude,333,18,25]; @symbol_type<0> = [Boolean,333,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 336; @symbol_moduledef = [system_loc__hint_button_right_bottom,336,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 336; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 337; @position = 18; @symbol_constdef = [x,337,18,19]; @symbol_type<0> = [Number,337,23,29]; ]
+            const x as Number = 337;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [y,338,18,19]; @symbol_type<0> = [Number,338,23,29]; ]
+            const y as Number = 259;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 341; @symbol_moduledef = [confirmation_icon_dark__hint_reject,341,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 341; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [filename,342,18,26]; @symbol_type<0> = [String,342,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [dithering,343,18,27]; @symbol_type<0> = [String,343,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 346; @symbol_moduledef = [confirmation_color_dark__body,346,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 346; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 348 18 ]
+                symbol [ Graphics %tmp.94 348 31 39 ];
+                %tmp.94 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.95 348 40 57 ];
+                %tmp.95 = getv %tmp.94 :COLOR_TRANSPARENT;
+                putv self :background %tmp.95;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 347; @position = 18; @symbol_constdef = [color,347,18,23]; @symbol_type<0> = [Number,347,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [background,348,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 351; @symbol_moduledef = [confirmation_icon_light__hint_confirm,351,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 351; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [filename,352,18,26]; @symbol_type<0> = [String,352,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [dithering,353,18,27]; @symbol_type<0> = [String,353,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 356; @symbol_moduledef = [prompt_color_dark__title,356,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 356; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 358 18 ]
+                symbol [ Graphics %tmp.96 358 31 39 ];
+                %tmp.96 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.97 358 40 57 ];
+                %tmp.97 = getv %tmp.96 :COLOR_TRANSPARENT;
+                putv self :background %tmp.97;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 357; @position = 18; @symbol_constdef = [color,357,18,23]; @symbol_type<0> = [Number,357,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [background,358,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 361; @symbol_moduledef = [system_icon_destructive__cancel,361,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 361; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 362; @position = 18; @symbol_constdef = [filename,362,18,26]; @symbol_type<0> = [String,362,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_destructive__cancel.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [dithering,363,18,27]; @symbol_type<0> = [String,363,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 366; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,366,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 366; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 367; @position = 18; @symbol_constdef = [filename,367,18,26]; @symbol_type<0> = [String,367,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 368; @position = 18; @symbol_constdef = [dithering,368,18,27]; @symbol_type<0> = [String,368,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 371; @symbol_moduledef = [prompt_loc__title,371,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [x,372,18,19]; @symbol_type<0> = [Number,372,23,29]; ]
+            const x as Number = 59;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 373; @position = 18; @symbol_constdef = [y,373,18,19]; @symbol_type<0> = [Number,373,23,29]; ]
+            const y as Number = 78;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 376; @symbol_moduledef = [confirmation_font_enhanced_readability__body,376,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 376; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [exclude,377,18,25]; @symbol_type<0> = [Boolean,377,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 380; @symbol_moduledef = [prompt_color_light__title,380,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 380; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 382 18 ]
+                symbol [ Graphics %tmp.98 382 31 39 ];
+                %tmp.98 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.99 382 40 57 ];
+                %tmp.99 = getv %tmp.98 :COLOR_TRANSPARENT;
+                putv self :background %tmp.99;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 381; @position = 18; @symbol_constdef = [color,381,18,23]; @symbol_type<0> = [Number,381,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [background,382,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 385; @symbol_moduledef = [system_icon_dark__hint_button_right_top,385,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 385; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 386; @position = 18; @symbol_constdef = [filename,386,18,26]; @symbol_type<0> = [String,386,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [dithering,387,18,27]; @symbol_type<0> = [String,387,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 390; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,390,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 390; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [exclude,391,18,25]; @symbol_type<0> = [Boolean,391,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 394; @symbol_moduledef = [confirmation_icon_dark__hint_keep,394,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 394; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 395; @position = 18; @symbol_constdef = [filename,395,18,26]; @symbol_type<0> = [String,395,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 396; @position = 18; @symbol_constdef = [dithering,396,18,27]; @symbol_type<0> = [String,396,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 399; @symbol_moduledef = [system_icon_light__cancel,399,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 399; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 400; @position = 18; @symbol_constdef = [filename,400,18,26]; @symbol_type<0> = [String,400,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__cancel.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 401; @position = 18; @symbol_constdef = [compress,401,18,26]; @symbol_type<0> = [String,401,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [dithering,402,18,27]; @symbol_type<0> = [String,402,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 403; @position = 18; @symbol_constdef = [automaticPalette,403,18,34]; @symbol_type<0> = [String,403,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 406; @symbol_moduledef = [confirmation_icon_light__hint_reject,406,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [filename,407,18,26]; @symbol_type<0> = [String,407,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 408; @position = 18; @symbol_constdef = [dithering,408,18,27]; @symbol_type<0> = [String,408,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 411; @symbol_moduledef = [system_icon_light__about,411,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 411; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [filename,412,18,26]; @symbol_type<0> = [String,412,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__about.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 413; @position = 18; @symbol_constdef = [compress,413,18,26]; @symbol_type<0> = [String,413,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 414; @position = 18; @symbol_constdef = [dithering,414,18,27]; @symbol_type<0> = [String,414,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 415; @position = 18; @symbol_constdef = [automaticPalette,415,18,34]; @symbol_type<0> = [String,415,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 418; @symbol_moduledef = [system_size__toast_icon,418,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 418; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 419; @position = 18; @symbol_constdef = [scaleX,419,18,24]; @symbol_type<0> = [Number,419,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 420; @position = 18; @symbol_constdef = [scaleY,420,18,24]; @symbol_type<0> = [Number,420,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [scaleRelativeTo,421,18,33]; @symbol_type<0> = [String,421,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 424; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,424,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 424; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 425; @position = 18; @symbol_constdef = [exclude,425,18,25]; @symbol_type<0> = [Boolean,425,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 428; @symbol_moduledef = [confirmation_icon__hint_reject,428,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 428; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 429; @position = 18; @symbol_constdef = [filename,429,18,26]; @symbol_type<0> = [String,429,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 430; @position = 18; @symbol_constdef = [dithering,430,18,27]; @symbol_type<0> = [String,430,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 433; @symbol_moduledef = [system_icon_light__hint_action_menu,433,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 433; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 434; @position = 18; @symbol_constdef = [filename,434,18,26]; @symbol_type<0> = [String,434,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 435; @position = 18; @symbol_constdef = [dithering,435,18,27]; @symbol_type<0> = [String,435,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 438; @symbol_moduledef = [system_icon_light__hint_button_right_middle,438,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 438; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 439; @position = 18; @symbol_constdef = [exclude,439,18,25]; @symbol_type<0> = [Boolean,439,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 442; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,442,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 442; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 443; @position = 18; @symbol_constdef = [exclude,443,18,25]; @symbol_type<0> = [Boolean,443,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 446; @symbol_moduledef = [confirmation_loc__hint_reject,446,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 446; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 447; @position = 18; @symbol_constdef = [x,447,18,19]; @symbol_type<0> = [Number,447,23,29]; ]
+            const x as Number = 195;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 448; @position = 18; @symbol_constdef = [horizontalJustification,448,18,41]; @symbol_type<0> = [String,448,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 449; @position = 18; @symbol_constdef = [y,449,18,19]; @symbol_type<0> = [Number,449,23,29]; ]
+            const y as Number = 0;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 452; @symbol_moduledef = [confirmation_icon_dark__hint_delete,452,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 452; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 453; @position = 18; @symbol_constdef = [filename,453,18,26]; @symbol_type<0> = [String,453,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 454; @position = 18; @symbol_constdef = [dithering,454,18,27]; @symbol_type<0> = [String,454,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 457; @symbol_moduledef = [activity_color_dark__background,457,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 457; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 458; @position = 18; @symbol_constdef = [color,458,18,23]; @symbol_type<0> = [Number,458,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 459; @position = 18; @symbol_constdef = [background,459,18,28]; @symbol_type<0> = [Number,459,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 462; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,462,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 462; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 463; @position = 18; @symbol_constdef = [exclude,463,18,25]; @symbol_type<0> = [Boolean,463,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 466; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,466,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 466; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 467; @position = 18; @symbol_constdef = [exclude,467,18,25]; @symbol_type<0> = [Boolean,467,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 470; @symbol_moduledef = [system_size__menu_icon,470,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 470; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [scaleX,471,18,24]; @symbol_type<0> = [Number,471,28,34]; ]
+            const scaleX as Number = 60;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 472; @position = 18; @symbol_constdef = [scaleY,472,18,24]; @symbol_type<0> = [Number,472,28,34]; ]
+            const scaleY as Number = 60;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 473; @position = 18; @symbol_constdef = [scaleRelativeTo,473,18,33]; @symbol_type<0> = [String,473,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 476; @symbol_moduledef = [system_icon_destructive__warning,476,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 476; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 477; @position = 18; @symbol_constdef = [filename,477,18,26]; @symbol_type<0> = [String,477,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_destructive__warning.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 478; @position = 18; @symbol_constdef = [dithering,478,18,27]; @symbol_type<0> = [String,478,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 481; @symbol_moduledef = [system_loc__hint_button_right_middle,481,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 481; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 482; @position = 18; @symbol_constdef = [exclude,482,18,25]; @symbol_type<0> = [Boolean,482,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 485; @symbol_moduledef = [system_icon_dark__cancel,485,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 485; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 486; @position = 18; @symbol_constdef = [filename,486,18,26]; @symbol_type<0> = [String,486,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__cancel.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 487; @position = 18; @symbol_constdef = [compress,487,18,26]; @symbol_type<0> = [String,487,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 488; @position = 18; @symbol_constdef = [dithering,488,18,27]; @symbol_type<0> = [String,488,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 489; @position = 18; @symbol_constdef = [automaticPalette,489,18,34]; @symbol_type<0> = [String,489,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 492; @symbol_moduledef = [prompt_size__body_with_title,492,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 492; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 493; @position = 18; @symbol_constdef = [width,493,18,23]; @symbol_type<0> = [Number,493,27,33]; ]
+            const width as Number = 310;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 494; @position = 18; @symbol_constdef = [height,494,18,24]; @symbol_type<0> = [Number,494,28,34]; ]
+            const height as Number = 167;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 497; @symbol_moduledef = [system_loc__hint_button_right_top,497,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 497; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 498; @position = 18; @symbol_constdef = [x,498,18,19]; @symbol_type<0> = [Number,498,23,29]; ]
+            const x as Number = 338;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 499; @position = 18; @symbol_constdef = [y,499,18,19]; @symbol_type<0> = [Number,499,23,29]; ]
+            const y as Number = 73;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 502; @symbol_moduledef = [system_color_light__text,502,15,39]; ]
+        module system_color_light__text {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 502; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 504 18 ]
+                symbol [ Graphics %tmp.100 504 31 39 ];
+                %tmp.100 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.101 504 40 57 ];
+                %tmp.101 = getv %tmp.100 :COLOR_TRANSPARENT;
+                putv self :background %tmp.101;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [color,503,18,23]; @symbol_type<0> = [Number,503,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 504; @position = 18; @symbol_constdef = [background,504,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 507; @symbol_moduledef = [system_icon_light__check,507,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 507; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 508; @position = 18; @symbol_constdef = [filename,508,18,26]; @symbol_type<0> = [String,508,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__check.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 509; @position = 18; @symbol_constdef = [compress,509,18,26]; @symbol_type<0> = [String,509,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 510; @position = 18; @symbol_constdef = [dithering,510,18,27]; @symbol_type<0> = [String,510,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 511; @position = 18; @symbol_constdef = [automaticPalette,511,18,34]; @symbol_type<0> = [String,511,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 514; @symbol_moduledef = [confirmation_input__reject,514,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 514; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [y1,515,18,20]; @symbol_type<0> = [Number,515,24,30]; ]
+            const y1 as Number = 0;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 516; @position = 18; @symbol_constdef = [x1,516,18,20]; @symbol_type<0> = [Number,516,24,30]; ]
+            const x1 as Number = 100;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [y2,517,18,20]; @symbol_type<0> = [Number,517,24,30]; ]
+            const y2 as Number = 80;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 518; @position = 18; @symbol_constdef = [x2,518,18,20]; @symbol_type<0> = [Number,518,24,30]; ]
+            const x2 as Number = 290;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 521; @symbol_moduledef = [system_icon_light__revert,521,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 521; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 522; @position = 18; @symbol_constdef = [filename,522,18,26]; @symbol_type<0> = [String,522,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__revert.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 523; @position = 18; @symbol_constdef = [compress,523,18,26]; @symbol_type<0> = [String,523,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 524; @position = 18; @symbol_constdef = [dithering,524,18,27]; @symbol_type<0> = [String,524,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 525; @position = 18; @symbol_constdef = [automaticPalette,525,18,34]; @symbol_type<0> = [String,525,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 528; @symbol_moduledef = [system_size__subwindow,528,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 528; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 529; @position = 18; @symbol_constdef = [exclude,529,18,25]; @symbol_type<0> = [Boolean,529,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 532; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,532,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 532; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 533; @position = 18; @symbol_constdef = [exclude,533,18,25]; @symbol_type<0> = [Boolean,533,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 536; @symbol_moduledef = [system_icon_dark__check,536,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 536; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [filename,537,18,26]; @symbol_type<0> = [String,537,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__check.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 538; @position = 18; @symbol_constdef = [compress,538,18,26]; @symbol_type<0> = [String,538,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 539; @position = 18; @symbol_constdef = [dithering,539,18,27]; @symbol_type<0> = [String,539,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 540; @position = 18; @symbol_constdef = [automaticPalette,540,18,34]; @symbol_type<0> = [String,540,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 543; @symbol_moduledef = [confirmation_loc__hint_keep,543,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 543; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 544; @position = 18; @symbol_constdef = [x,544,18,19]; @symbol_type<0> = [Number,544,23,29]; ]
+            const x as Number = 195;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 545; @position = 18; @symbol_constdef = [horizontalJustification,545,18,41]; @symbol_type<0> = [String,545,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 546; @position = 18; @symbol_constdef = [y,546,18,19]; @symbol_type<0> = [Number,546,23,29]; ]
+            const y as Number = 310;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 549; @symbol_moduledef = [confirmation_loc__hint_delete,549,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 549; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 550; @position = 18; @symbol_constdef = [x,550,18,19]; @symbol_type<0> = [Number,550,23,29]; ]
+            const x as Number = 195;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 551; @position = 18; @symbol_constdef = [horizontalJustification,551,18,41]; @symbol_type<0> = [String,551,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 552; @position = 18; @symbol_constdef = [y,552,18,19]; @symbol_type<0> = [Number,552,23,29]; ]
+            const y as Number = 0;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 555; @symbol_moduledef = [system_icon_positive__hint_action_menu,555,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 555; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 556; @position = 18; @symbol_constdef = [filename,556,18,26]; @symbol_type<0> = [String,556,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 557; @position = 18; @symbol_constdef = [dithering,557,18,27]; @symbol_type<0> = [String,557,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 560; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,560,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 560; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [exclude,561,18,25]; @symbol_type<0> = [Boolean,561,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 564; @symbol_moduledef = [system_icon_light__hint_button_left_middle,564,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 564; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 565; @position = 18; @symbol_constdef = [exclude,565,18,25]; @symbol_type<0> = [Boolean,565,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 568; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,568,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 568; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 569; @position = 18; @symbol_constdef = [filename,569,18,26]; @symbol_type<0> = [String,569,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [dithering,570,18,27]; @symbol_type<0> = [String,570,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 573; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,573,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 573; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 574; @position = 18; @symbol_constdef = [filename,574,18,26]; @symbol_type<0> = [String,574,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 575; @position = 18; @symbol_constdef = [dithering,575,18,27]; @symbol_type<0> = [String,575,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 578; @symbol_moduledef = [system_icon_dark__revert,578,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 578; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [filename,579,18,26]; @symbol_type<0> = [String,579,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__revert.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 580; @position = 18; @symbol_constdef = [compress,580,18,26]; @symbol_type<0> = [String,580,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 581; @position = 18; @symbol_constdef = [dithering,581,18,27]; @symbol_type<0> = [String,581,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [automaticPalette,582,18,34]; @symbol_type<0> = [String,582,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 585; @symbol_moduledef = [confirmation_icon_light__hint_delete,585,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 585; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 586; @position = 18; @symbol_constdef = [filename,586,18,26]; @symbol_type<0> = [String,586,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [dithering,587,18,27]; @symbol_type<0> = [String,587,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 590; @symbol_moduledef = [system_icon_dark__question,590,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 590; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 591; @position = 18; @symbol_constdef = [filename,591,18,26]; @symbol_type<0> = [String,591,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__question.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [compress,592,18,26]; @symbol_type<0> = [String,592,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [dithering,593,18,27]; @symbol_type<0> = [String,593,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 594; @position = 18; @symbol_constdef = [automaticPalette,594,18,34]; @symbol_type<0> = [String,594,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 597; @symbol_moduledef = [system_icon_light__discard,597,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 597; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [filename,598,18,26]; @symbol_type<0> = [String,598,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__discard.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 599; @position = 18; @symbol_constdef = [compress,599,18,26]; @symbol_type<0> = [String,599,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 600; @position = 18; @symbol_constdef = [dithering,600,18,27]; @symbol_type<0> = [String,600,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 601; @position = 18; @symbol_constdef = [automaticPalette,601,18,34]; @symbol_type<0> = [String,601,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 604; @symbol_moduledef = [device_info,604,15,26]; ]
+        module device_info {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 604; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 606 18 ]
+                symbol [ Toybox %tmp.103 606 32 38 ];
+                %tmp.103 = getv ? :Toybox;
+                symbol [ System %tmp.104 606 39 45 ];
+                %tmp.104 = getv %tmp.103 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.105 606 46 64 ];
+                %tmp.105 = getv %tmp.104 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.105;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 605; @position = 18; @symbol_constdef = [screenWidth,605,18,29]; @symbol_type<0> = [Number,605,33,39]; ]
+            const screenWidth as Number = 390;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [screenShape,606,18,29]; ]
+            const screenShape;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 607; @position = 18; @symbol_constdef = [hasNightMode,607,18,30]; @symbol_type<0> = [Boolean,607,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 608; @position = 18; @symbol_constdef = [hasGpu,608,18,24]; @symbol_type<0> = [Boolean,608,28,35]; ]
+            const hasGpu as Boolean = false;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 609; @position = 18; @symbol_constdef = [screenHeight,609,18,30]; @symbol_type<0> = [Number,609,34,40]; ]
+            const screenHeight as Number = 390;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [hasTouchScreen,610,18,32]; @symbol_type<0> = [Boolean,610,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,611,18,44]; @symbol_type<0> = [Boolean,611,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 614; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,614,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 614; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [filename,615,18,26]; @symbol_type<0> = [String,615,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [dithering,616,18,27]; @symbol_type<0> = [String,616,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 619; @symbol_moduledef = [prompt_font__body_no_title,619,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 619; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 620 18 ]
+                symbol [ Graphics %tmp.106 620 34 42 ];
+                %tmp.106 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.107 620 43 62 ];
+                %tmp.107 = getv %tmp.106 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.108 620 63 71 ];
+                %tmp.108 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.109 620 72 92 ];
+                %tmp.109 = getv %tmp.108 :TEXT_JUSTIFY_VCENTER;
+                %tmp.110 = bitor %tmp.107 %tmp.109;
+                putv self :justification %tmp.110;
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 621 18 ]
+                symbol [ Graphics %tmp.111 621 25 33 ];
+                %tmp.111 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.112 621 34 43 ];
+                %tmp.112 = getv %tmp.111 :FONT_TINY;
+                putv self :font %tmp.112;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 620; @position = 18; @symbol_constdef = [justification,620,18,31]; ]
+            const justification;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [font,621,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 624; @symbol_moduledef = [prompt_size__title_icon,624,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 624; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 625; @position = 18; @symbol_constdef = [scaleX,625,18,24]; @symbol_type<0> = [Float,625,28,33]; ]
+            const scaleX as Float = 0.14;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [scaleRelativeTo,626,18,33]; @symbol_type<0> = [String,626,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 629; @symbol_moduledef = [system_icon_dark__warning,629,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 629; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [filename,630,18,26]; @symbol_type<0> = [String,630,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__warning.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 631; @position = 18; @symbol_constdef = [compress,631,18,26]; @symbol_type<0> = [String,631,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [dithering,632,18,27]; @symbol_type<0> = [String,632,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [automaticPalette,633,18,34]; @symbol_type<0> = [String,633,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 636; @symbol_moduledef = [prompt_loc__title_icon,636,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 636; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 637; @position = 18; @symbol_constdef = [x,637,18,19]; @symbol_type<0> = [Number,637,23,29]; ]
+            const x as Number = 195;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 638; @position = 18; @symbol_constdef = [y,638,18,19]; @symbol_type<0> = [Number,638,23,29]; ]
+            const y as Number = 45;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [horizontalJustification,639,18,41]; @symbol_type<0> = [String,639,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [verticalJustification,640,18,39]; @symbol_type<0> = [String,640,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 643; @symbol_moduledef = [prompt_font_enhanced_readability__title,643,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 643; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [exclude,644,18,25]; @symbol_type<0> = [Boolean,644,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 647; @symbol_moduledef = [prompt_color_dark__body,647,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 647; ]
+            <init> {
+[ "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen" 649 18 ]
+                symbol [ Graphics %tmp.113 649 31 39 ];
+                %tmp.113 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.114 649 40 57 ];
+                %tmp.114 = getv %tmp.113 :COLOR_TRANSPARENT;
+                putv self :background %tmp.114;
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 648; @position = 18; @symbol_constdef = [color,648,18,23]; @symbol_type<0> = [Number,648,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 649; @position = 18; @symbol_constdef = [background,649,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 652; @symbol_moduledef = [confirmation_icon__hint_delete,652,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 652; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 653; @position = 18; @symbol_constdef = [filename,653,18,26]; @symbol_type<0> = [String,653,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 654; @position = 18; @symbol_constdef = [dithering,654,18,27]; @symbol_type<0> = [String,654,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 657; @symbol_moduledef = [system_icon_light__hint_button_right_top,657,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 657; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 658; @position = 18; @symbol_constdef = [filename,658,18,26]; @symbol_type<0> = [String,658,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 659; @position = 18; @symbol_constdef = [dithering,659,18,27]; @symbol_type<0> = [String,659,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 662; @symbol_moduledef = [confirmation_size__body,662,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 662; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 663; @position = 18; @symbol_constdef = [width,663,18,23]; @symbol_type<0> = [Number,663,27,33]; ]
+            const width as Number = 310;
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 664; @position = 18; @symbol_constdef = [height,664,18,24]; @symbol_type<0> = [Number,664,28,34]; ]
+            const height as Number = 211;
+        }
+        [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 667; @symbol_moduledef = [system_icon_positive__check,667,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 667; ]
+            <init> {
+            }
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 668; @position = 18; @symbol_constdef = [filename,668,18,26]; @symbol_type<0> = [String,668,30,36]; ]
+            const filename as String = "/home/user/.Garmin/ConnectIQ/Devices/approachs50/system_icon_positive__check.svg";
+            [ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [dithering,669,18,27]; @symbol_type<0> = [String,669,31,37]; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "/home/user/New3BingfaWatchFace/new3bingfawatchface/bin/gen/006-B4656-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}
