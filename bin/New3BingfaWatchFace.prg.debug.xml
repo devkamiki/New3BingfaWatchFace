@@ -6,9 +6,9 @@
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceApp.mc" id="2" lineNum="31" parent="globals" pc="268435472" symbol="getApp"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceApp.mc" id="2" lineNum="32" parent="globals" pc="268435482" symbol="getApp"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceBackground.mc" id="3" lineNum="6" parent="globals/Background" pc="268435493" symbol="&lt;init&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="4" lineNum="11" parent="globals/new3bingfawatchfaceView" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="4" lineNum="12" parent="globals/new3bingfawatchfaceView" pc="268435505" symbol="&lt;init&gt;"/>
         <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="5" lineNum="7" parent="globals/Rez" pc="268435517" symbol="&lt;init&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="6" lineNum="401" parent="globals/AnalogDelegate" pc="268435537" symbol="&lt;init&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="6" lineNum="416" parent="globals/AnalogDelegate" pc="268435537" symbol="&lt;init&gt;"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceApp.mc" id="7" lineNum="12" parent="globals/new3bingfawatchfaceApp" pc="268435549" symbol="onStart"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceApp.mc" id="8" lineNum="25" parent="globals/new3bingfawatchfaceApp" pc="268435552" symbol="onSettingsChanged"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceApp.mc" id="8" lineNum="26" parent="globals/new3bingfawatchfaceApp" pc="268435554" symbol="onSettingsChanged"/>
@@ -23,180 +23,191 @@
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceBackground.mc" id="13" lineNum="16" parent="globals/Background" pc="268435650" symbol="draw"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceBackground.mc" id="13" lineNum="18" parent="globals/Background" pc="268435652" symbol="draw"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceBackground.mc" id="13" lineNum="19" parent="globals/Background" pc="268435683" symbol="draw"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="14" lineNum="292" parent="globals/new3bingfawatchfaceView" pc="268435692" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawDateString&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="14" lineNum="293" parent="globals/new3bingfawatchfaceView" pc="268435695" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawDateString&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="14" lineNum="294" parent="globals/new3bingfawatchfaceView" pc="268435721" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawDateString&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="14" lineNum="296" parent="globals/new3bingfawatchfaceView" pc="268435771" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawDateString&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="14" lineNum="297" parent="globals/new3bingfawatchfaceView" pc="268435788" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawDateString&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="15" lineNum="390" parent="globals/new3bingfawatchfaceView" pc="268435838" symbol="onExitSleep"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="15" lineNum="391" parent="globals/new3bingfawatchfaceView" pc="268435840" symbol="onExitSleep"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="16" lineNum="395" parent="globals/new3bingfawatchfaceView" pc="268435849" symbol="turnPartialUpdatesOff"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="16" lineNum="396" parent="globals/new3bingfawatchfaceView" pc="268435851" symbol="turnPartialUpdatesOff"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="120" parent="globals/new3bingfawatchfaceView" pc="268435860" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="121" parent="globals/new3bingfawatchfaceView" pc="268435863" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="122" parent="globals/new3bingfawatchfaceView" pc="268435872" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="125" parent="globals/new3bingfawatchfaceView" pc="268435881" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="126" parent="globals/new3bingfawatchfaceView" pc="268435892" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="127" parent="globals/new3bingfawatchfaceView" pc="268435899" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="129" parent="globals/new3bingfawatchfaceView" pc="268435906" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="131" parent="globals/new3bingfawatchfaceView" pc="268435924" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="132" parent="globals/new3bingfawatchfaceView" pc="268435946" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="133" parent="globals/new3bingfawatchfaceView" pc="268435968" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="134" parent="globals/new3bingfawatchfaceView" pc="268435990" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="135" parent="globals/new3bingfawatchfaceView" pc="268436012" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="136" parent="globals/new3bingfawatchfaceView" pc="268436030" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="137" parent="globals/new3bingfawatchfaceView" pc="268436040" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="138" parent="globals/new3bingfawatchfaceView" pc="268436062" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="139" parent="globals/new3bingfawatchfaceView" pc="268436084" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="140" parent="globals/new3bingfawatchfaceView" pc="268436106" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="141" parent="globals/new3bingfawatchfaceView" pc="268436128" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="144" parent="globals/new3bingfawatchfaceView" pc="268436162" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="145" parent="globals/new3bingfawatchfaceView" pc="268436195" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="146" parent="globals/new3bingfawatchfaceView" pc="268436211" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="147" parent="globals/new3bingfawatchfaceView" pc="268436236" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="149" parent="globals/new3bingfawatchfaceView" pc="268436249" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="154" parent="globals/new3bingfawatchfaceView" pc="268436337" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="32" parent="globals/new3bingfawatchfaceView" pc="268436460" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="35" parent="globals/new3bingfawatchfaceView" pc="268436463" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="41" parent="globals/new3bingfawatchfaceView" pc="268436501" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="42" parent="globals/new3bingfawatchfaceView" pc="268436520" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="44" parent="globals/new3bingfawatchfaceView" pc="268436561" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="47" parent="globals/new3bingfawatchfaceView" pc="268436569" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="58" parent="globals/new3bingfawatchfaceView" pc="268436613" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="63" parent="globals/new3bingfawatchfaceView" pc="268436653" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="65" parent="globals/new3bingfawatchfaceView" pc="268436668" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="67" parent="globals/new3bingfawatchfaceView" pc="268436695" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="68" parent="globals/new3bingfawatchfaceView" pc="268436725" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="72" parent="globals/new3bingfawatchfaceView" pc="268436740" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="78" parent="globals/new3bingfawatchfaceView" pc="268436771" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="80" parent="globals/new3bingfawatchfaceView" pc="268436805" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="81" parent="globals/new3bingfawatchfaceView" pc="268436813" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="84" parent="globals/new3bingfawatchfaceView" pc="268436821" symbol="onLayout"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="330" parent="globals/new3bingfawatchfaceView" pc="268436859" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="331" parent="globals/new3bingfawatchfaceView" pc="268436862" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="332" parent="globals/new3bingfawatchfaceView" pc="268436869" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="334" parent="globals/new3bingfawatchfaceView" pc="268436876" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="335" parent="globals/new3bingfawatchfaceView" pc="268436892" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="336" parent="globals/new3bingfawatchfaceView" pc="268436907" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="339" parent="globals/new3bingfawatchfaceView" pc="268436921" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="340" parent="globals/new3bingfawatchfaceView" pc="268436938" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="343" parent="globals/new3bingfawatchfaceView" pc="268436954" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="344" parent="globals/new3bingfawatchfaceView" pc="268436969" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="347" parent="globals/new3bingfawatchfaceView" pc="268436983" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="348" parent="globals/new3bingfawatchfaceView" pc="268437000" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="352" parent="globals/new3bingfawatchfaceView" pc="268437026" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="302" parent="globals/new3bingfawatchfaceView" pc="268437041" symbol="onPartialUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="306" parent="globals/new3bingfawatchfaceView" pc="268437044" symbol="onPartialUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="307" parent="globals/new3bingfawatchfaceView" pc="268437053" symbol="onPartialUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="310" parent="globals/new3bingfawatchfaceView" pc="268437067" symbol="onPartialUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="312" parent="globals/new3bingfawatchfaceView" pc="268437079" symbol="onPartialUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="313" parent="globals/new3bingfawatchfaceView" pc="268437088" symbol="onPartialUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="314" parent="globals/new3bingfawatchfaceView" pc="268437111" symbol="onPartialUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="316" parent="globals/new3bingfawatchfaceView" pc="268437150" symbol="onPartialUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="317" parent="globals/new3bingfawatchfaceView" pc="268437162" symbol="onPartialUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="318" parent="globals/new3bingfawatchfaceView" pc="268437181" symbol="onPartialUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="319" parent="globals/new3bingfawatchfaceView" pc="268437202" symbol="onPartialUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="322" parent="globals/new3bingfawatchfaceView" pc="268437229" symbol="onPartialUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="323" parent="globals/new3bingfawatchfaceView" pc="268437246" symbol="onPartialUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="97" parent="globals/new3bingfawatchfaceView" pc="268437262" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="99" parent="globals/new3bingfawatchfaceView" pc="268437265" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="103" parent="globals/new3bingfawatchfaceView" pc="268437359" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="104" parent="globals/new3bingfawatchfaceView" pc="268437364" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="105" parent="globals/new3bingfawatchfaceView" pc="268437380" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="108" parent="globals/new3bingfawatchfaceView" pc="268437396" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="109" parent="globals/new3bingfawatchfaceView" pc="268437407" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="110" parent="globals/new3bingfawatchfaceView" pc="268437437" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="112" parent="globals/new3bingfawatchfaceView" pc="268437467" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="115" parent="globals/new3bingfawatchfaceView" pc="268437507" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="361" parent="globals/new3bingfawatchfaceView" pc="268437510" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="362" parent="globals/new3bingfawatchfaceView" pc="268437513" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="363" parent="globals/new3bingfawatchfaceView" pc="268437522" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="367" parent="globals/new3bingfawatchfaceView" pc="268437531" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="368" parent="globals/new3bingfawatchfaceView" pc="268437540" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="372" parent="globals/new3bingfawatchfaceView" pc="268437560" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="374" parent="globals/new3bingfawatchfaceView" pc="268437569" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="377" parent="globals/new3bingfawatchfaceView" pc="268437593" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="23" lineNum="383" parent="globals/new3bingfawatchfaceView" pc="268437615" symbol="onEnterSleep"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="23" lineNum="384" parent="globals/new3bingfawatchfaceView" pc="268437617" symbol="onEnterSleep"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="23" lineNum="385" parent="globals/new3bingfawatchfaceView" pc="268437625" symbol="onEnterSleep"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="24" lineNum="23" parent="globals/new3bingfawatchfaceView" pc="268437637" symbol="initialize"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="24" lineNum="24" parent="globals/new3bingfawatchfaceView" pc="268437639" symbol="initialize"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="24" lineNum="25" parent="globals/new3bingfawatchfaceView" pc="268437651" symbol="initialize"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="24" lineNum="26" parent="globals/new3bingfawatchfaceView" pc="268437673" symbol="initialize"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="24" lineNum="27" parent="globals/new3bingfawatchfaceView" pc="268437681" symbol="initialize"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="164" parent="globals/new3bingfawatchfaceView" pc="268437704" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="165" parent="globals/new3bingfawatchfaceView" pc="268437707" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="166" parent="globals/new3bingfawatchfaceView" pc="268437719" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="169" parent="globals/new3bingfawatchfaceView" pc="268437722" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="170" parent="globals/new3bingfawatchfaceView" pc="268437730" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="173" parent="globals/new3bingfawatchfaceView" pc="268437739" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="174" parent="globals/new3bingfawatchfaceView" pc="268437752" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="176" parent="globals/new3bingfawatchfaceView" pc="268437763" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="179" parent="globals/new3bingfawatchfaceView" pc="268437767" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="180" parent="globals/new3bingfawatchfaceView" pc="268437776" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="183" parent="globals/new3bingfawatchfaceView" pc="268437785" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="184" parent="globals/new3bingfawatchfaceView" pc="268437803" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="187" parent="globals/new3bingfawatchfaceView" pc="268437829" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="188" parent="globals/new3bingfawatchfaceView" pc="268437849" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="194" parent="globals/new3bingfawatchfaceView" pc="268437925" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="197" parent="globals/new3bingfawatchfaceView" pc="268437936" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="198" parent="globals/new3bingfawatchfaceView" pc="268437963" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="202" parent="globals/new3bingfawatchfaceView" pc="268437997" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="204" parent="globals/new3bingfawatchfaceView" pc="268438014" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="206" parent="globals/new3bingfawatchfaceView" pc="268438023" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="207" parent="globals/new3bingfawatchfaceView" pc="268438044" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="208" parent="globals/new3bingfawatchfaceView" pc="268438054" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="209" parent="globals/new3bingfawatchfaceView" pc="268438067" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="212" parent="globals/new3bingfawatchfaceView" pc="268438116" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="214" parent="globals/new3bingfawatchfaceView" pc="268438125" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="215" parent="globals/new3bingfawatchfaceView" pc="268438148" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="219" parent="globals/new3bingfawatchfaceView" pc="268438197" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="220" parent="globals/new3bingfawatchfaceView" pc="268438213" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="221" parent="globals/new3bingfawatchfaceView" pc="268438235" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="222" parent="globals/new3bingfawatchfaceView" pc="268438247" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="226" parent="globals/new3bingfawatchfaceView" pc="268438269" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="227" parent="globals/new3bingfawatchfaceView" pc="268438281" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="228" parent="globals/new3bingfawatchfaceView" pc="268438291" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="229" parent="globals/new3bingfawatchfaceView" pc="268438307" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="230" parent="globals/new3bingfawatchfaceView" pc="268438333" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="231" parent="globals/new3bingfawatchfaceView" pc="268438358" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="234" parent="globals/new3bingfawatchfaceView" pc="268438386" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="235" parent="globals/new3bingfawatchfaceView" pc="268438396" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="237" parent="globals/new3bingfawatchfaceView" pc="268438406" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="240" parent="globals/new3bingfawatchfaceView" pc="268438410" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="243" parent="globals/new3bingfawatchfaceView" pc="268438417" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="243" parent="globals/new3bingfawatchfaceView" pc="268438465" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="244" parent="globals/new3bingfawatchfaceView" pc="268438488" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="245" parent="globals/new3bingfawatchfaceView" pc="268438506" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="245" parent="globals/new3bingfawatchfaceView" pc="268438538" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="246" parent="globals/new3bingfawatchfaceView" pc="268438571" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="252" parent="globals/new3bingfawatchfaceView" pc="268438640" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="253" parent="globals/new3bingfawatchfaceView" pc="268438658" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="256" parent="globals/new3bingfawatchfaceView" pc="268438671" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="259" parent="globals/new3bingfawatchfaceView" pc="268438694" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="263" parent="globals/new3bingfawatchfaceView" pc="268438714" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="266" parent="globals/new3bingfawatchfaceView" pc="268438725" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="267" parent="globals/new3bingfawatchfaceView" pc="268438766" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="268" parent="globals/new3bingfawatchfaceView" pc="268438783" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="270" parent="globals/new3bingfawatchfaceView" pc="268438841" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="273" parent="globals/new3bingfawatchfaceView" pc="268438849" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="274" parent="globals/new3bingfawatchfaceView" pc="268438863" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="277" parent="globals/new3bingfawatchfaceView" pc="268438871" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="278" parent="globals/new3bingfawatchfaceView" pc="268438888" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="280" parent="globals/new3bingfawatchfaceView" pc="268438911" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="281" parent="globals/new3bingfawatchfaceView" pc="268438920" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="285" parent="globals/new3bingfawatchfaceView" pc="268438973" symbol="onUpdate"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="26" lineNum="406" parent="globals/AnalogDelegate" pc="268438982" symbol="initialize"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="26" lineNum="407" parent="globals/AnalogDelegate" pc="268438984" symbol="initialize"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="26" lineNum="408" parent="globals/AnalogDelegate" pc="268438996" symbol="initialize"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="27" lineNum="417" parent="globals/AnalogDelegate" pc="268439006" symbol="onPowerBudgetExceeded"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="27" lineNum="418" parent="globals/AnalogDelegate" pc="268439008" symbol="onPowerBudgetExceeded"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="27" lineNum="419" parent="globals/AnalogDelegate" pc="268439033" symbol="onPowerBudgetExceeded"/>
-        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="27" lineNum="420" parent="globals/AnalogDelegate" pc="268439058" symbol="onPowerBudgetExceeded"/>
-        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="28" lineNum="22" parent="globals/Rez/Layouts" pc="268439071" symbol="WatchFace"/>
-        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="28" lineNum="23" parent="globals/Rez/Layouts" pc="268439082" symbol="WatchFace"/>
-        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="28" lineNum="25" parent="globals/Rez/Layouts" pc="268439106" symbol="WatchFace"/>
-        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="28" lineNum="27" parent="globals/Rez/Layouts" pc="268439222" symbol="WatchFace"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="14" lineNum="307" parent="globals/new3bingfawatchfaceView" pc="268435692" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawDateString&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="14" lineNum="308" parent="globals/new3bingfawatchfaceView" pc="268435695" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawDateString&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="14" lineNum="309" parent="globals/new3bingfawatchfaceView" pc="268435721" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawDateString&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="14" lineNum="311" parent="globals/new3bingfawatchfaceView" pc="268435771" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawDateString&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="14" lineNum="312" parent="globals/new3bingfawatchfaceView" pc="268435788" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawDateString&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="15" lineNum="405" parent="globals/new3bingfawatchfaceView" pc="268435838" symbol="onExitSleep"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="15" lineNum="406" parent="globals/new3bingfawatchfaceView" pc="268435840" symbol="onExitSleep"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="16" lineNum="410" parent="globals/new3bingfawatchfaceView" pc="268435849" symbol="turnPartialUpdatesOff"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="16" lineNum="411" parent="globals/new3bingfawatchfaceView" pc="268435851" symbol="turnPartialUpdatesOff"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="121" parent="globals/new3bingfawatchfaceView" pc="268435860" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="122" parent="globals/new3bingfawatchfaceView" pc="268435863" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="123" parent="globals/new3bingfawatchfaceView" pc="268435872" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="126" parent="globals/new3bingfawatchfaceView" pc="268435881" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="127" parent="globals/new3bingfawatchfaceView" pc="268435892" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="128" parent="globals/new3bingfawatchfaceView" pc="268435899" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="130" parent="globals/new3bingfawatchfaceView" pc="268435906" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="132" parent="globals/new3bingfawatchfaceView" pc="268435924" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="133" parent="globals/new3bingfawatchfaceView" pc="268435946" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="134" parent="globals/new3bingfawatchfaceView" pc="268435968" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="135" parent="globals/new3bingfawatchfaceView" pc="268435990" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="136" parent="globals/new3bingfawatchfaceView" pc="268436012" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="137" parent="globals/new3bingfawatchfaceView" pc="268436030" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="138" parent="globals/new3bingfawatchfaceView" pc="268436040" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="139" parent="globals/new3bingfawatchfaceView" pc="268436062" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="140" parent="globals/new3bingfawatchfaceView" pc="268436084" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="141" parent="globals/new3bingfawatchfaceView" pc="268436106" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="142" parent="globals/new3bingfawatchfaceView" pc="268436128" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="145" parent="globals/new3bingfawatchfaceView" pc="268436162" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="146" parent="globals/new3bingfawatchfaceView" pc="268436195" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="147" parent="globals/new3bingfawatchfaceView" pc="268436211" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="148" parent="globals/new3bingfawatchfaceView" pc="268436236" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="150" parent="globals/new3bingfawatchfaceView" pc="268436249" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="17" lineNum="155" parent="globals/new3bingfawatchfaceView" pc="268436337" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="33" parent="globals/new3bingfawatchfaceView" pc="268436460" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="36" parent="globals/new3bingfawatchfaceView" pc="268436463" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="42" parent="globals/new3bingfawatchfaceView" pc="268436501" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="43" parent="globals/new3bingfawatchfaceView" pc="268436520" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="45" parent="globals/new3bingfawatchfaceView" pc="268436561" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="48" parent="globals/new3bingfawatchfaceView" pc="268436569" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="59" parent="globals/new3bingfawatchfaceView" pc="268436613" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="64" parent="globals/new3bingfawatchfaceView" pc="268436653" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="66" parent="globals/new3bingfawatchfaceView" pc="268436668" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="68" parent="globals/new3bingfawatchfaceView" pc="268436695" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="69" parent="globals/new3bingfawatchfaceView" pc="268436725" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="73" parent="globals/new3bingfawatchfaceView" pc="268436740" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="79" parent="globals/new3bingfawatchfaceView" pc="268436771" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="81" parent="globals/new3bingfawatchfaceView" pc="268436805" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="82" parent="globals/new3bingfawatchfaceView" pc="268436813" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="18" lineNum="85" parent="globals/new3bingfawatchfaceView" pc="268436821" symbol="onLayout"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="345" parent="globals/new3bingfawatchfaceView" pc="268436859" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="346" parent="globals/new3bingfawatchfaceView" pc="268436862" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="347" parent="globals/new3bingfawatchfaceView" pc="268436869" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="349" parent="globals/new3bingfawatchfaceView" pc="268436876" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="350" parent="globals/new3bingfawatchfaceView" pc="268436892" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="351" parent="globals/new3bingfawatchfaceView" pc="268436907" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="354" parent="globals/new3bingfawatchfaceView" pc="268436921" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="355" parent="globals/new3bingfawatchfaceView" pc="268436938" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="358" parent="globals/new3bingfawatchfaceView" pc="268436954" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="359" parent="globals/new3bingfawatchfaceView" pc="268436969" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="362" parent="globals/new3bingfawatchfaceView" pc="268436983" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="363" parent="globals/new3bingfawatchfaceView" pc="268437000" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="19" lineNum="367" parent="globals/new3bingfawatchfaceView" pc="268437026" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="317" parent="globals/new3bingfawatchfaceView" pc="268437041" symbol="onPartialUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="321" parent="globals/new3bingfawatchfaceView" pc="268437044" symbol="onPartialUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="322" parent="globals/new3bingfawatchfaceView" pc="268437053" symbol="onPartialUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="325" parent="globals/new3bingfawatchfaceView" pc="268437067" symbol="onPartialUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="327" parent="globals/new3bingfawatchfaceView" pc="268437079" symbol="onPartialUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="328" parent="globals/new3bingfawatchfaceView" pc="268437088" symbol="onPartialUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="329" parent="globals/new3bingfawatchfaceView" pc="268437111" symbol="onPartialUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="331" parent="globals/new3bingfawatchfaceView" pc="268437150" symbol="onPartialUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="332" parent="globals/new3bingfawatchfaceView" pc="268437162" symbol="onPartialUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="333" parent="globals/new3bingfawatchfaceView" pc="268437181" symbol="onPartialUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="334" parent="globals/new3bingfawatchfaceView" pc="268437202" symbol="onPartialUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="337" parent="globals/new3bingfawatchfaceView" pc="268437229" symbol="onPartialUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="20" lineNum="338" parent="globals/new3bingfawatchfaceView" pc="268437246" symbol="onPartialUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="98" parent="globals/new3bingfawatchfaceView" pc="268437262" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="100" parent="globals/new3bingfawatchfaceView" pc="268437265" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="104" parent="globals/new3bingfawatchfaceView" pc="268437359" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="105" parent="globals/new3bingfawatchfaceView" pc="268437364" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="106" parent="globals/new3bingfawatchfaceView" pc="268437380" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="109" parent="globals/new3bingfawatchfaceView" pc="268437396" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="110" parent="globals/new3bingfawatchfaceView" pc="268437407" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="111" parent="globals/new3bingfawatchfaceView" pc="268437437" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="113" parent="globals/new3bingfawatchfaceView" pc="268437467" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="21" lineNum="116" parent="globals/new3bingfawatchfaceView" pc="268437507" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="376" parent="globals/new3bingfawatchfaceView" pc="268437510" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="377" parent="globals/new3bingfawatchfaceView" pc="268437513" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="378" parent="globals/new3bingfawatchfaceView" pc="268437522" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="382" parent="globals/new3bingfawatchfaceView" pc="268437531" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="383" parent="globals/new3bingfawatchfaceView" pc="268437540" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="387" parent="globals/new3bingfawatchfaceView" pc="268437560" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="389" parent="globals/new3bingfawatchfaceView" pc="268437569" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="22" lineNum="392" parent="globals/new3bingfawatchfaceView" pc="268437593" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="23" lineNum="398" parent="globals/new3bingfawatchfaceView" pc="268437615" symbol="onEnterSleep"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="23" lineNum="399" parent="globals/new3bingfawatchfaceView" pc="268437617" symbol="onEnterSleep"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="23" lineNum="400" parent="globals/new3bingfawatchfaceView" pc="268437625" symbol="onEnterSleep"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="24" lineNum="24" parent="globals/new3bingfawatchfaceView" pc="268437637" symbol="initialize"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="24" lineNum="25" parent="globals/new3bingfawatchfaceView" pc="268437639" symbol="initialize"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="24" lineNum="26" parent="globals/new3bingfawatchfaceView" pc="268437651" symbol="initialize"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="24" lineNum="27" parent="globals/new3bingfawatchfaceView" pc="268437673" symbol="initialize"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="24" lineNum="28" parent="globals/new3bingfawatchfaceView" pc="268437681" symbol="initialize"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="165" parent="globals/new3bingfawatchfaceView" pc="268437704" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="166" parent="globals/new3bingfawatchfaceView" pc="268437707" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="167" parent="globals/new3bingfawatchfaceView" pc="268437719" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="170" parent="globals/new3bingfawatchfaceView" pc="268437722" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="171" parent="globals/new3bingfawatchfaceView" pc="268437730" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="174" parent="globals/new3bingfawatchfaceView" pc="268437739" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="175" parent="globals/new3bingfawatchfaceView" pc="268437752" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="177" parent="globals/new3bingfawatchfaceView" pc="268437763" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="180" parent="globals/new3bingfawatchfaceView" pc="268437767" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="181" parent="globals/new3bingfawatchfaceView" pc="268437776" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="184" parent="globals/new3bingfawatchfaceView" pc="268437785" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="185" parent="globals/new3bingfawatchfaceView" pc="268437801" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="188" parent="globals/new3bingfawatchfaceView" pc="268437827" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="189" parent="globals/new3bingfawatchfaceView" pc="268437847" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="195" parent="globals/new3bingfawatchfaceView" pc="268437923" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="198" parent="globals/new3bingfawatchfaceView" pc="268437934" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="199" parent="globals/new3bingfawatchfaceView" pc="268437961" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="203" parent="globals/new3bingfawatchfaceView" pc="268437995" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="205" parent="globals/new3bingfawatchfaceView" pc="268438012" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="207" parent="globals/new3bingfawatchfaceView" pc="268438021" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="208" parent="globals/new3bingfawatchfaceView" pc="268438042" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="209" parent="globals/new3bingfawatchfaceView" pc="268438052" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="210" parent="globals/new3bingfawatchfaceView" pc="268438065" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="213" parent="globals/new3bingfawatchfaceView" pc="268438114" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="215" parent="globals/new3bingfawatchfaceView" pc="268438123" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="216" parent="globals/new3bingfawatchfaceView" pc="268438146" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="220" parent="globals/new3bingfawatchfaceView" pc="268438195" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="221" parent="globals/new3bingfawatchfaceView" pc="268438213" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="222" parent="globals/new3bingfawatchfaceView" pc="268438235" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="223" parent="globals/new3bingfawatchfaceView" pc="268438251" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="227" parent="globals/new3bingfawatchfaceView" pc="268438273" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="228" parent="globals/new3bingfawatchfaceView" pc="268438285" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="229" parent="globals/new3bingfawatchfaceView" pc="268438295" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="230" parent="globals/new3bingfawatchfaceView" pc="268438311" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="231" parent="globals/new3bingfawatchfaceView" pc="268438337" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="232" parent="globals/new3bingfawatchfaceView" pc="268438362" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="235" parent="globals/new3bingfawatchfaceView" pc="268438390" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="236" parent="globals/new3bingfawatchfaceView" pc="268438400" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="238" parent="globals/new3bingfawatchfaceView" pc="268438410" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="241" parent="globals/new3bingfawatchfaceView" pc="268438414" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="244" parent="globals/new3bingfawatchfaceView" pc="268438421" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="244" parent="globals/new3bingfawatchfaceView" pc="268438469" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="245" parent="globals/new3bingfawatchfaceView" pc="268438492" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="246" parent="globals/new3bingfawatchfaceView" pc="268438510" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="246" parent="globals/new3bingfawatchfaceView" pc="268438542" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="247" parent="globals/new3bingfawatchfaceView" pc="268438575" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="253" parent="globals/new3bingfawatchfaceView" pc="268438644" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="254" parent="globals/new3bingfawatchfaceView" pc="268438662" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="257" parent="globals/new3bingfawatchfaceView" pc="268438675" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="260" parent="globals/new3bingfawatchfaceView" pc="268438698" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="264" parent="globals/new3bingfawatchfaceView" pc="268438718" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="267" parent="globals/new3bingfawatchfaceView" pc="268438729" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="268" parent="globals/new3bingfawatchfaceView" pc="268438770" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="269" parent="globals/new3bingfawatchfaceView" pc="268438787" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="271" parent="globals/new3bingfawatchfaceView" pc="268438845" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="272" parent="globals/new3bingfawatchfaceView" pc="268438848" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="273" parent="globals/new3bingfawatchfaceView" pc="268438855" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="274" parent="globals/new3bingfawatchfaceView" pc="268438867" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="275" parent="globals/new3bingfawatchfaceView" pc="268438873" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="276" parent="globals/new3bingfawatchfaceView" pc="268438882" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="277" parent="globals/new3bingfawatchfaceView" pc="268438895" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="280" parent="globals/new3bingfawatchfaceView" pc="268438918" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="281" parent="globals/new3bingfawatchfaceView" pc="268438973" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="283" parent="globals/new3bingfawatchfaceView" pc="268439034" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="284" parent="globals/new3bingfawatchfaceView" pc="268439105" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="285" parent="globals/new3bingfawatchfaceView" pc="268439169" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="288" parent="globals/new3bingfawatchfaceView" pc="268439177" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="289" parent="globals/new3bingfawatchfaceView" pc="268439191" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="292" parent="globals/new3bingfawatchfaceView" pc="268439199" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="293" parent="globals/new3bingfawatchfaceView" pc="268439216" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="295" parent="globals/new3bingfawatchfaceView" pc="268439239" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="296" parent="globals/new3bingfawatchfaceView" pc="268439248" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="25" lineNum="300" parent="globals/new3bingfawatchfaceView" pc="268439301" symbol="onUpdate"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="26" lineNum="421" parent="globals/AnalogDelegate" pc="268439310" symbol="initialize"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="26" lineNum="422" parent="globals/AnalogDelegate" pc="268439312" symbol="initialize"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="26" lineNum="423" parent="globals/AnalogDelegate" pc="268439324" symbol="initialize"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="27" lineNum="432" parent="globals/AnalogDelegate" pc="268439334" symbol="onPowerBudgetExceeded"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="27" lineNum="433" parent="globals/AnalogDelegate" pc="268439336" symbol="onPowerBudgetExceeded"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="27" lineNum="434" parent="globals/AnalogDelegate" pc="268439361" symbol="onPowerBudgetExceeded"/>
+        <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="27" lineNum="435" parent="globals/AnalogDelegate" pc="268439386" symbol="onPowerBudgetExceeded"/>
+        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="28" lineNum="22" parent="globals/Rez/Layouts" pc="268439399" symbol="WatchFace"/>
+        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="28" lineNum="23" parent="globals/Rez/Layouts" pc="268439410" symbol="WatchFace"/>
+        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="28" lineNum="25" parent="globals/Rez/Layouts" pc="268439434" symbol="WatchFace"/>
+        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="28" lineNum="27" parent="globals/Rez/Layouts" pc="268439550" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="21" method="true" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawDateString&gt;"/>
@@ -219,6 +230,7 @@
         <entry field="true" id="38" symbol="ColorBlue"/>
         <entry field="true" id="19" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;_screenShape&gt;"/>
         <entry field="true" id="35" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
         <entry field="true" id="33" symbol="id_font_lxgwwk"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
@@ -337,31 +349,34 @@
         <entry arg="true" endPc="268437614" name="dc" stackId="1" startPc="268437510"/>
         <entry endPc="268437613" name="width" stackId="2" startPc="268437513"/>
         <entry endPc="268437613" name="height" stackId="3" startPc="268437513"/>
-        <entry arg="true" endPc="268438981" name="dc" stackId="1" startPc="268437704"/>
-        <entry endPc="268438980" name="clockTime" stackId="2" startPc="268437707"/>
-        <entry endPc="268438980" name="targetDc" stackId="3" startPc="268437707"/>
-        <entry endPc="268438980" name="width" stackId="4" startPc="268437707"/>
-        <entry endPc="268438980" name="height" stackId="5" startPc="268437707"/>
-        <entry endPc="268438112" name="hourHandAngle" stackId="6" startPc="268438023"/>
-        <entry endPc="268438193" name="minuteHandAngle" stackId="7" startPc="268438125"/>
-        <entry endPc="268438639" name="i" stackId="8" startPc="268438281"/>
-        <entry endPc="268438629" name="angleDeg" stackId="9" startPc="268438281"/>
-        <entry endPc="268438629" name="rad" stackId="10" startPc="268438281"/>
-        <entry endPc="268438629" name="radius" stackId="11" startPc="268438281"/>
-        <entry endPc="268438629" name="x" stackId="12" startPc="268438281"/>
-        <entry endPc="268438629" name="y" stackId="13" startPc="268438281"/>
-        <entry endPc="268438629" name="hourIndex" stackId="14" startPc="268438281"/>
-        <entry endPc="268438629" name="label" stackId="15" startPc="268438281"/>
-        <entry endPc="268438629" name="justify" stackId="16" startPc="268438281"/>
-        <entry endPc="268438629" name="font" stackId="17" startPc="268438281"/>
-        <entry endPc="268438710" name="dateDc" stackId="18" startPc="268438658"/>
-        <entry endPc="268438980" name="dataString" stackId="19" startPc="268437707"/>
-        <entry endPc="268438969" name="secondHand" stackId="20" startPc="268438871"/>
-        <entry arg="true" endPc="268439005" name="view" stackId="1" startPc="268438982"/>
-        <entry arg="true" endPc="268439070" name="powerInfo" stackId="1" startPc="268439006"/>
-        <entry arg="true" endPc="268439236" name="dc" stackId="1" startPc="268439071"/>
-        <entry endPc="268439236" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="2" startPc="268439082"/>
-        <entry endPc="268439236" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268439082"/>
+        <entry arg="true" endPc="268439309" name="dc" stackId="1" startPc="268437704"/>
+        <entry endPc="268439308" name="clockTime" stackId="2" startPc="268437707"/>
+        <entry endPc="268439308" name="targetDc" stackId="3" startPc="268437707"/>
+        <entry endPc="268439308" name="width" stackId="4" startPc="268437707"/>
+        <entry endPc="268439308" name="height" stackId="5" startPc="268437707"/>
+        <entry endPc="268438110" name="hourHandAngle" stackId="6" startPc="268438021"/>
+        <entry endPc="268438191" name="minuteHandAngle" stackId="7" startPc="268438123"/>
+        <entry endPc="268438643" name="i" stackId="8" startPc="268438285"/>
+        <entry endPc="268438633" name="angleDeg" stackId="9" startPc="268438285"/>
+        <entry endPc="268438633" name="rad" stackId="10" startPc="268438285"/>
+        <entry endPc="268438633" name="radius" stackId="11" startPc="268438285"/>
+        <entry endPc="268438633" name="x" stackId="12" startPc="268438285"/>
+        <entry endPc="268438633" name="y" stackId="13" startPc="268438285"/>
+        <entry endPc="268438633" name="hourIndex" stackId="14" startPc="268438285"/>
+        <entry endPc="268438633" name="label" stackId="15" startPc="268438285"/>
+        <entry endPc="268438633" name="justify" stackId="16" startPc="268438285"/>
+        <entry endPc="268438633" name="font" stackId="17" startPc="268438285"/>
+        <entry endPc="268438714" name="dateDc" stackId="18" startPc="268438662"/>
+        <entry endPc="268439308" name="dataString" stackId="19" startPc="268437707"/>
+        <entry endPc="268439308" name="heartRate" stackId="20" startPc="268437707"/>
+        <entry endPc="268439308" name="heartRateText" stackId="21" startPc="268437707"/>
+        <entry endPc="268439308" name="actInfo" stackId="22" startPc="268437707"/>
+        <entry endPc="268439297" name="secondHand" stackId="23" startPc="268439199"/>
+        <entry arg="true" endPc="268439333" name="view" stackId="1" startPc="268439310"/>
+        <entry arg="true" endPc="268439398" name="powerInfo" stackId="1" startPc="268439334"/>
+        <entry arg="true" endPc="268439564" name="dc" stackId="1" startPc="268439399"/>
+        <entry endPc="268439564" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="2" startPc="268439410"/>
+        <entry endPc="268439564" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268439410"/>
     </localVars>
     <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4426-00"/>
     <annotations>
@@ -484,7 +499,7 @@
         <functionEntry accessMode="public" endPc="268437703" name="initialize" parent="new3bingfawatchfaceView" startPc="268437637">
             <documentation><![CDATA[<div class="description"> Initialize variables for this view<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438981" name="onUpdate" parent="new3bingfawatchfaceView" startPc="268437704">
+        <functionEntry accessMode="public" endPc="268439309" name="onUpdate" parent="new3bingfawatchfaceView" startPc="268437704">
             <param id="dc"/>
             <documentation><![CDATA[<div class="description"> Handle the update event<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
         </functionEntry>
@@ -500,15 +515,15 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439005" name="initialize" parent="AnalogDelegate" startPc="268438982">
+        <functionEntry accessMode="public" endPc="268439333" name="initialize" parent="AnalogDelegate" startPc="268439310">
             <param id="view"/>
             <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> view The analog view</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439070" name="onPowerBudgetExceeded" parent="AnalogDelegate" startPc="268439006">
+        <functionEntry accessMode="public" endPc="268439398" name="onPowerBudgetExceeded" parent="AnalogDelegate" startPc="268439334">
             <param id="powerInfo"/>
             <documentation><![CDATA[<div class="description"> The onPowerBudgetExceeded callback is called by the system if the<br/> onPartialUpdate method exceeds the allowed power budget. If this occurs,<br/> the system will stop invoking onPartialUpdate each second, so we notify the<br/> view here to let the rendering methods know they should not be rendering a<br/> second hand.<br/> <div class="param"> powerInfo Information about the power budget</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439236" name="WatchFace" parent="Layouts" startPc="268439071">
+        <functionEntry accessMode="public" endPc="268439564" name="WatchFace" parent="Layouts" startPc="268439399">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

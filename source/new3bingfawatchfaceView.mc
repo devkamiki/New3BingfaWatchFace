@@ -5,6 +5,7 @@ import Toybox.System;
 import Toybox.Time;
 import Toybox.Time.Gregorian;
 import Toybox.WatchUi;
+import Toybox.ActivityMonitor;
 
 //! This implements an analog watch face
 //! Original design by Austen Harbour
@@ -48,8 +49,8 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
                 :width=>dc.getWidth(),
                 :height=>dc.getHeight(),
                 :palette=> [
-                    Graphics.COLOR_DK_GRAY,
-                    Graphics.COLOR_LT_GRAY,
+                    Graphics.COLOR_DK_BLUE,
+                    Graphics.COLOR_PINK,
                     Graphics.COLOR_BLACK,
                     Graphics.COLOR_WHITE
                 ]
@@ -179,11 +180,11 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
         var width = targetDc.getWidth();
         var height = targetDc.getHeight();
 
-        // Fill the entire background with Black.
-        targetDc.setColor(Graphics.COLOR_DK_BLUE, Graphics.COLOR_WHITE);
+        // Fill the entire background with Blue.
+        targetDc.setColor(Graphics.COLOR_DK_BLUE, Graphics.COLOR_DK_BLUE);
         targetDc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
 
-        // Draw a grey triangle over the upper right half of the screen.
+        // Draw a pink triangle over the upper right half of the screen.
         targetDc.setColor(Graphics.COLOR_PINK, Graphics.COLOR_PINK);
         targetDc.fillPolygon([[0, 0],
                               [targetDc.getWidth(), 0],
@@ -216,9 +217,9 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
         }
 
         // Draw the arbor in the center of the screen.
-        targetDc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_BLACK);
+        targetDc.setColor(Graphics.COLOR_PINK, Graphics.COLOR_DK_BLUE);
         targetDc.fillCircle(width / 2, height / 2, 7);
-        targetDc.setColor(Graphics.COLOR_BLACK,Graphics.COLOR_BLACK);
+        targetDc.setColor(Graphics.COLOR_DK_BLUE,Graphics.COLOR_DK_BLUE);
         targetDc.drawCircle(width / 2, height / 2, 7);
 
         
@@ -240,7 +241,7 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
         var font =  _font ;
         
 
-        if (i == 11 or i==12 or i ==1 or i ==2 or i ==3 or i==4) {targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_PURPLE);}
+        if (i == 11 or i==12 or i ==1 or i ==2 or i ==3 or i==4) {targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_PINK);}
         else {targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_DK_BLUE);}
         if(i==3 or i==6 or i==9 or i==12) {targetDc.drawText(x.toNumber(), y.toNumber(), font, label, justify);}
         else {targetDc.drawText(x.toNumber(), y.toNumber(), WatchUi.loadResource(Rez.Fonts.id_font_lxgwwk48), label, justify);}
@@ -266,7 +267,21 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
         var dataString = (System.getSystemStats().battery + 0.5).toNumber().toString() + "%";
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(width / 2, 3 * height / 4, WatchUi.loadResource(Rez.Fonts.id_font_jbmono24), dataString, Graphics.TEXT_JUSTIFY_CENTER);
-
+        // draw heart rate
+        var heartRate = 0;
+        var heartRateText = "...";
+        var actInfo = Activity.getActivityInfo();
+        if (actInfo != null) {
+        heartRate = actInfo.currentHeartRate;    
+          if (heartRate != 0 && heartRate != null) {
+            heartRateText = heartRate.format("%d");
+          }
+        }  
+        dc.drawText(width / 4,  height / 2, WatchUi.loadResource(Rez.Fonts.id_font_jbmono24), heartRateText, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(width / 4,  height / 2-30, WatchUi.loadResource(Rez.Fonts.id_font_jbmono24), "Heart", Graphics.TEXT_JUSTIFY_CENTER);
+        // draw steps
+        dc.drawText(3*width / 4,  height / 2, WatchUi.loadResource(Rez.Fonts.id_font_jbmono24),  ActivityMonitor.getInfo().steps, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(3*width / 4,  height / 2-30, WatchUi.loadResource(Rez.Fonts.id_font_jbmono24), "Steps", Graphics.TEXT_JUSTIFY_CENTER);
         if (_partialUpdatesAllowed) {
             // If this device supports partial updates and they are currently
             // allowed run the onPartialUpdate method to draw the second hand.
