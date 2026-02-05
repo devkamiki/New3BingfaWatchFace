@@ -51,6 +51,8 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
                 :palette=> [
                     0x000080,
                     0xffb3b3,
+                    0xbd060b,
+                    0xA4A5C7,
                     Graphics.COLOR_BLACK,
                     Graphics.COLOR_WHITE
                 ]
@@ -192,12 +194,13 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
                               [0, 0]]);
 
         // Draw the tick marks around the edges of the screen
+        targetDc.setColor(0xA4A5C7,Graphics.COLOR_TRANSPARENT);
         drawHashMarks(targetDc);
 
         // Draw the do-not-disturb icon if we support it and the setting is enabled
-        if (System.getDeviceSettings().doNotDisturb && (null != _dndIcon)) {
-            targetDc.drawBitmap(width * 0.75, height / 2 - 15, _dndIcon);
-        }
+      //  if (System.getDeviceSettings().doNotDisturb && (null != _dndIcon)) {
+        //    targetDc.drawBitmap(width * 0.75, height / 2 - 15, _dndIcon);
+        //}
 
         // Use white to draw the hour and minute hands
         targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
@@ -214,6 +217,13 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
             // Draw the minute hand.
             var minuteHandAngle = (clockTime.min / 60.0) * Math.PI * 2;
             targetDc.fillPolygon(generateHandCoordinates(_screenCenterPoint, minuteHandAngle, dc.getHeight() / 3, 0, dc.getWidth() / 120));
+        }
+
+        if (_screenCenterPoint != null) {
+            // Draw the second hand with red
+            targetDc.setColor(0xbd060b,Graphics.COLOR_TRANSPARENT);
+            var secondHandAngle = (clockTime.sec / 60.0) * Math.PI * 2;
+            targetDc.fillPolygon(generateHandCoordinates(_screenCenterPoint, secondHandAngle, dc.getHeight() / 3, 0, dc.getWidth() / 120));
         }
 
         // Draw the arbor in the center of the screen.

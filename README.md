@@ -11,4 +11,7 @@
 - 把生成的 `.prg` 文件复制到 Garmin 手表的 `GARMIN/Apps` 目录
 - 大功告成
 
-![Preview on Instinct 3 AMOLED 45mm](/Preview.png)
+注意事项：  
+这是一个彩色表盘，无法应用在 Instinct 3 Solar 等型号上。过段时间我会把黑白的也放上来
+
+![Preview on vivoactive5](/Preview.png)
