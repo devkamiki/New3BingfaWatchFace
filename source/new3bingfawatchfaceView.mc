@@ -180,11 +180,11 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
         var height = targetDc.getHeight();
 
         // Fill the entire background with Black.
-        targetDc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
+        targetDc.setColor(Graphics.COLOR_DK_BLUE, Graphics.COLOR_WHITE);
         targetDc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
 
         // Draw a grey triangle over the upper right half of the screen.
-        targetDc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_DK_GRAY);
+        targetDc.setColor(Graphics.COLOR_PINK, Graphics.COLOR_PINK);
         targetDc.fillPolygon([[0, 0],
                               [targetDc.getWidth(), 0],
                               [targetDc.getWidth(), targetDc.getHeight()],
@@ -238,9 +238,12 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
         //if (i == 3)  { justify = Graphics.TEXT_JUSTIFY_LEFT; }
       //  if (i == 9)  { justify = Graphics.TEXT_JUSTIFY_RIGHT; }
         var font =  _font ;
-        if (i == 11 or i==12 or i ==1 or i ==2 or i ==3 or i==4) {targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_DK_GRAY);}
-        else {targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);}
-        targetDc.drawText(x.toNumber(), y.toNumber(), font, label, justify);
+        
+
+        if (i == 11 or i==12 or i ==1 or i ==2 or i ==3 or i==4) {targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_PURPLE);}
+        else {targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_DK_BLUE);}
+        if(i==3 or i==6 or i==9 or i==12) {targetDc.drawText(x.toNumber(), y.toNumber(), font, label, justify);}
+        else {targetDc.drawText(x.toNumber(), y.toNumber(), WatchUi.loadResource(Rez.Fonts.id_font_lxgwwk48), label, justify);}
     }
 
         // If we have an offscreen buffer that we are using for the date string,

@@ -12,4 +12,7 @@
     <fonts>
         <font id="id_font_jbmono24" filename="fonts/jbmono24.fnt"  />
     </fonts>
+    <fonts>
+        <font id="id_font_lxgwwk48" filename="fonts/lxgwwk48.fnt"  filter="骄兵必败哀胜敗驕勝"/>
+    </fonts>
 </resources>

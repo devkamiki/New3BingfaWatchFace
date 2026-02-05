@@ -15,6 +15,7 @@ module Rez {
         (:initialized) var id_font_lxgwwk as ResourceId;
         (:initialized) var id_font_jbmono48 as ResourceId;
         (:initialized) var id_font_jbmono24 as ResourceId;
+        (:initialized) var id_font_lxgwwk48 as ResourceId;
     } // Fonts
 
     module Layouts {

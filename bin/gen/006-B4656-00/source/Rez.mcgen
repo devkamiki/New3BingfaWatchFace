@@ -13,6 +13,9 @@ module Rez {
     module Fonts {
         (:initialized) var id_font_black_diamond as ResourceId;
         (:initialized) var id_font_lxgwwk as ResourceId;
+        (:initialized) var id_font_jbmono48 as ResourceId;
+        (:initialized) var id_font_jbmono24 as ResourceId;
+        (:initialized) var id_font_lxgwwk48 as ResourceId;
     } // Fonts
 
     module Layouts {
