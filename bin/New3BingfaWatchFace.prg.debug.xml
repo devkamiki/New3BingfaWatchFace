@@ -7,7 +7,7 @@
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceApp.mc" id="2" lineNum="32" parent="globals" pc="268435482" symbol="getApp"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceBackground.mc" id="3" lineNum="6" parent="globals/Background" pc="268435493" symbol="&lt;init&gt;"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="4" lineNum="12" parent="globals/new3bingfawatchfaceView" pc="268435505" symbol="&lt;init&gt;"/>
-        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="5" lineNum="7" parent="globals/Rez" pc="268435517" symbol="&lt;init&gt;"/>
+        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4586-00/source/Rez.mcgen" id="5" lineNum="7" parent="globals/Rez" pc="268435517" symbol="&lt;init&gt;"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="6" lineNum="416" parent="globals/AnalogDelegate" pc="268435537" symbol="&lt;init&gt;"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceApp.mc" id="7" lineNum="12" parent="globals/new3bingfawatchfaceApp" pc="268435549" symbol="onStart"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceApp.mc" id="8" lineNum="25" parent="globals/new3bingfawatchfaceApp" pc="268435552" symbol="onSettingsChanged"/>
@@ -204,10 +204,10 @@
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="27" lineNum="433" parent="globals/AnalogDelegate" pc="268439336" symbol="onPowerBudgetExceeded"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="27" lineNum="434" parent="globals/AnalogDelegate" pc="268439361" symbol="onPowerBudgetExceeded"/>
         <entry filename="/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" id="27" lineNum="435" parent="globals/AnalogDelegate" pc="268439386" symbol="onPowerBudgetExceeded"/>
-        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="28" lineNum="22" parent="globals/Rez/Layouts" pc="268439399" symbol="WatchFace"/>
-        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="28" lineNum="23" parent="globals/Rez/Layouts" pc="268439410" symbol="WatchFace"/>
-        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="28" lineNum="25" parent="globals/Rez/Layouts" pc="268439434" symbol="WatchFace"/>
-        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4426-00/source/Rez.mcgen" id="28" lineNum="27" parent="globals/Rez/Layouts" pc="268439550" symbol="WatchFace"/>
+        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4586-00/source/Rez.mcgen" id="28" lineNum="22" parent="globals/Rez/Layouts" pc="268439399" symbol="WatchFace"/>
+        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4586-00/source/Rez.mcgen" id="28" lineNum="23" parent="globals/Rez/Layouts" pc="268439410" symbol="WatchFace"/>
+        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4586-00/source/Rez.mcgen" id="28" lineNum="25" parent="globals/Rez/Layouts" pc="268439434" symbol="WatchFace"/>
+        <entry filename="/home/user/New3BingfaWatchFace/bin/gen/006-B4586-00/source/Rez.mcgen" id="28" lineNum="27" parent="globals/Rez/Layouts" pc="268439550" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="21" method="true" symbol="&lt;globals/new3bingfawatchfaceView/&lt;&gt;drawDateString&gt;"/>
@@ -378,7 +378,7 @@
         <entry endPc="268439564" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="2" startPc="268439410"/>
         <entry endPc="268439564" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268439410"/>
     </localVars>
-    <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4426-00"/>
+    <deviceInfo deviceVersion="ee2c90490395184b79ae3ac26e4ed9ec835c5208" partNumber="006-B4586-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="DoNotDisturbIcon"/>

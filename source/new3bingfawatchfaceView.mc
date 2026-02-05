@@ -49,8 +49,8 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
                 :width=>dc.getWidth(),
                 :height=>dc.getHeight(),
                 :palette=> [
-                    Graphics.COLOR_DK_BLUE,
-                    Graphics.COLOR_PINK,
+                    0x000080,
+                    0xffb3b3,
                     Graphics.COLOR_BLACK,
                     Graphics.COLOR_WHITE
                 ]
@@ -181,11 +181,11 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
         var height = targetDc.getHeight();
 
         // Fill the entire background with Blue.
-        targetDc.setColor(Graphics.COLOR_DK_BLUE, Graphics.COLOR_DK_BLUE);
+        targetDc.setColor(0x000080, 0x000080);
         targetDc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
 
         // Draw a pink triangle over the upper right half of the screen.
-        targetDc.setColor(Graphics.COLOR_PINK, Graphics.COLOR_PINK);
+        targetDc.setColor(0xffb3b3, 0xffb3b3);
         targetDc.fillPolygon([[0, 0],
                               [targetDc.getWidth(), 0],
                               [targetDc.getWidth(), targetDc.getHeight()],
@@ -217,9 +217,9 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
         }
 
         // Draw the arbor in the center of the screen.
-        targetDc.setColor(Graphics.COLOR_PINK, Graphics.COLOR_DK_BLUE);
+        targetDc.setColor(0xffb3b3, 0x000080);
         targetDc.fillCircle(width / 2, height / 2, 7);
-        targetDc.setColor(Graphics.COLOR_DK_BLUE,Graphics.COLOR_DK_BLUE);
+        targetDc.setColor(0x000080,0x000080);
         targetDc.drawCircle(width / 2, height / 2, 7);
 
         
@@ -241,8 +241,8 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
         var font =  _font ;
         
 
-        if (i == 11 or i==12 or i ==1 or i ==2 or i ==3 or i==4) {targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_PINK);}
-        else {targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_DK_BLUE);}
+        if (i == 11 or i==12 or i ==1 or i ==2 or i ==3 or i==4) {targetDc.setColor(Graphics.COLOR_WHITE, 0xffb3b3);}
+        else {targetDc.setColor(Graphics.COLOR_WHITE, 0x000080);}
         if(i==3 or i==6 or i==9 or i==12) {targetDc.drawText(x.toNumber(), y.toNumber(), font, label, justify);}
         else {targetDc.drawText(x.toNumber(), y.toNumber(), WatchUi.loadResource(Rez.Fonts.id_font_lxgwwk48), label, justify);}
     }
