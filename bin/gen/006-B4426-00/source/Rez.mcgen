@@ -12,6 +12,7 @@ module Rez {
 
     module Fonts {
         (:initialized) var id_font_black_diamond as ResourceId;
+        (:initialized) var id_font_lxgwwk as ResourceId;
     } // Fonts
 
     module Layouts {

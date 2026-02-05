@@ -1,5 +1,15 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
     <fonts>
         <font id="id_font_black_diamond" filename="fonts/blackdiamond.fnt" filter="0123456789" />
+        
+    </fonts>
+    <fonts>
+        <font id="id_font_lxgwwk" filename="fonts/lxgwwk.fnt" filter="骄兵必败哀胜敗驕勝" />
+    </fonts>
+    <fonts>
+        <font id="id_font_jbmono48" filename="fonts/jbmono48.fnt"  />
+    </fonts>
+    <fonts>
+        <font id="id_font_jbmono24" filename="fonts/jbmono24.fnt"  />
     </fonts>
 </resources>

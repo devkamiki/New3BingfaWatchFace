@@ -1,0 +1,10 @@
+info face="LXGW WenKai Medium" size=64 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=64 base=50 scaleW=256 scaleH=256 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="lxgwwk_0.png"
+chars count=6
+char id=20853 x=194   y=0     width=46    height=44    xoffset=1     yoffset=11    xadvance=48    page=0  chnl=15
+char id=21213 x=0     y=0     width=49    height=45    xoffset=0     yoffset=10    xadvance=48    page=0  chnl=15
+char id=21696 x=50    y=0     width=47    height=45    xoffset=1     yoffset=10    xadvance=48    page=0  chnl=15
+char id=24517 x=0     y=46    width=45    height=41    xoffset=2     yoffset=13    xadvance=48    page=0  chnl=15
+char id=25943 x=98    y=0     width=47    height=44    xoffset=1     yoffset=11    xadvance=48    page=0  chnl=15
+char id=39509 x=146   y=0     width=47    height=44    xoffset=1     yoffset=11    xadvance=48    page=0  chnl=15

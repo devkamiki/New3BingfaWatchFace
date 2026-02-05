@@ -18,7 +18,7 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
     private var _screenCenterPoint as Array<Number>?;
     private var _fullScreenRefresh as Boolean;
     private var _partialUpdatesAllowed as Boolean;
-
+    hidden  var _hourLabels as Array<String> = ["勝","兵","必","驕","兵","必","敗","兵","必","哀","兵","必"];
     //! Initialize variables for this view
     public function initialize() {
         WatchFace.initialize();
@@ -32,7 +32,8 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
     public function onLayout(dc as Dc) as Void {
 
         // Load the custom font we use for drawing the 3, 6, 9, and 12 on the watchface.
-        _font = WatchUi.loadResource($.Rez.Fonts.id_font_black_diamond) as FontResource;
+        _font = WatchUi.loadResource($.Rez.Fonts.id_font_lxgwwk) as FontResource;
+        
         
 
         // If this device supports the Do Not Disturb feature,
@@ -220,24 +221,26 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
         targetDc.setColor(Graphics.COLOR_BLACK,Graphics.COLOR_BLACK);
         targetDc.drawCircle(width / 2, height / 2, 7);
 
-        // Draw the 3, 6, 9, and 12 hour labels.
         
+
         for (var i = 1; i <= 12; i++) {
         var angleDeg = (i % 12) * 30;
         var rad = angleDeg * Math.PI / 180.0;
         var radius=(width < height ? width : height) / 2 * 0.82;
         var x = width/2 + radius * Math.sin(rad);
-        var y = height/2 - radius * Math.cos(rad);
-
-        var text = i.toString();
+        var y = height/2 - radius * Math.cos(rad) -32 ;
+        
+        //var text = i.toString();
+        var hourIndex = (i + 12) % 12;      
+        var label = _hourLabels[hourIndex];
 
         var justify = Graphics.TEXT_JUSTIFY_CENTER;
-        if (i == 3)  { justify = Graphics.TEXT_JUSTIFY_LEFT; }
-        if (i == 9)  { justify = Graphics.TEXT_JUSTIFY_RIGHT; }
-        // 12 and 6 already center
+        //if (i == 3)  { justify = Graphics.TEXT_JUSTIFY_LEFT; }
+      //  if (i == 9)  { justify = Graphics.TEXT_JUSTIFY_RIGHT; }
         var font =  _font ;
-        targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_DK_GRAY);
-        targetDc.drawText(x.toNumber(), y.toNumber(), font, text, justify);
+        if (i == 11 or i==12 or i ==1 or i ==2 or i ==3 or i==4) {targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_DK_GRAY);}
+        else {targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);}
+        targetDc.drawText(x.toNumber(), y.toNumber(), font, label, justify);
     }
 
         // If we have an offscreen buffer that we are using for the date string,
