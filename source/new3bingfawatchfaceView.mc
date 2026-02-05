@@ -262,7 +262,7 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
         // Draw the battery percentage directly to the main screen.
         var dataString = (System.getSystemStats().battery + 0.5).toNumber().toString() + "%";
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(width / 2, 3 * height / 4, Graphics.FONT_TINY, dataString, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(width / 2, 3 * height / 4, WatchUi.loadResource(Rez.Fonts.id_font_jbmono24), dataString, Graphics.TEXT_JUSTIFY_CENTER);
 
         if (_partialUpdatesAllowed) {
             // If this device supports partial updates and they are currently
@@ -291,7 +291,7 @@ class new3bingfawatchfaceView extends WatchUi.WatchFace {
         var dateStr = Lang.format("$1$ $2$ $3$", [info.day_of_week, info.month, info.day]);
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(x, y, Graphics.FONT_MEDIUM, dateStr, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(x, y, WatchUi.loadResource(Rez.Fonts.id_font_jbmono48), dateStr, Graphics.TEXT_JUSTIFY_CENTER);
     }
 
     //! Handle the partial update event

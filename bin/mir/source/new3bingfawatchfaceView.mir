@@ -1995,113 +1995,120 @@ _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_249_8_257_8_if_
         %tmp.397 = mul %tmp.395 %tmp.396;
         %tmp.398 = 4;
         %tmp.399 = div %tmp.397 %tmp.398;
-        symbol [ Graphics %tmp.400 265 47 55 ];
-        %tmp.400 = getm $.Toybox.Graphics;
-        symbol [ FONT_TINY %tmp.401 265 56 65 ];
-        %tmp.401 = getv %tmp.400 :FONT_TINY;
-        %tmp.402 = lgetv %dataString.18;
-        symbol [ dataString %tmp.402 265 67 77 ];
-        symbol [ Graphics %tmp.403 265 79 87 ];
-        %tmp.403 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.404 265 88 107 ];
-        %tmp.404 = getv %tmp.403 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.390 %tmp.391(%tmp.394, %tmp.399, %tmp.401, %tmp.402, %tmp.404);
+        symbol [ WatchUi %tmp.400 265 47 54 ];
+        %tmp.400 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.401 265 55 67 ];
+        %tmp.401 = getv function %tmp.400 :loadResource;
+        symbol [ Rez %tmp.403 265 68 71 ];
+        %tmp.403 = getv ? :Rez;
+        symbol [ Fonts %tmp.404 265 72 77 ];
+        %tmp.404 = getv %tmp.403 :Fonts;
+        symbol [ id_font_jbmono24 %tmp.405 265 78 94 ];
+        %tmp.405 = getv %tmp.404 :id_font_jbmono24;
+        %tmp.406 = invoke %tmp.400 %tmp.401(%tmp.405);
+        %tmp.407 = lgetv %dataString.18;
+        symbol [ dataString %tmp.407 265 97 107 ];
+        symbol [ Graphics %tmp.408 265 109 117 ];
+        %tmp.408 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.409 265 118 137 ];
+        %tmp.409 = getv %tmp.408 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.390 %tmp.391(%tmp.394, %tmp.399, %tmp.406, %tmp.407, %tmp.409);
 [ "/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" 267 8 ]
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_267_8_280_8_if_stmt:
-        symbol [ _partialUpdatesAllowed %tmp.406 267 12 34 ];
-        %tmp.406 = getv ? :_partialUpdatesAllowed;
-        bf %tmp.406 @_home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_267_8_280_8_if_false;
+        symbol [ _partialUpdatesAllowed %tmp.411 267 12 34 ];
+        %tmp.411 = getv ? :_partialUpdatesAllowed;
+        bf %tmp.411 @_home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_267_8_280_8_if_false;
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_267_8_280_8_if_true:
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_267_36_271_8_start:
 [ "/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" 270 12 ]
-        %tmp.407 = self;
-        symbol [ onPartialUpdate %tmp.408 270 12 27 ];
-        %tmp.408 = getv function %tmp.407 :onPartialUpdate;
-        %tmp.409 = lgetv %dc;
-        symbol [ dc %tmp.409 270 28 30 ];
-        invoke %tmp.407 %tmp.408(%tmp.409);
+        %tmp.412 = self;
+        symbol [ onPartialUpdate %tmp.413 270 12 27 ];
+        %tmp.413 = getv function %tmp.412 :onPartialUpdate;
+        %tmp.414 = lgetv %dc;
+        symbol [ dc %tmp.414 270 28 30 ];
+        invoke %tmp.412 %tmp.413(%tmp.414);
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_267_36_271_8_stop:
         goto @_home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_267_8_280_8_if_end;
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_267_8_280_8_if_false:
 [ "/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" 271 15 ]
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_271_15_280_8_if_stmt:
-        symbol [ _isAwake %tmp.411 271 19 27 ];
-        %tmp.411 = getv ? :_isAwake;
-        bf %tmp.411 @_home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_271_15_280_8_if_end;
+        symbol [ _isAwake %tmp.416 271 19 27 ];
+        %tmp.416 = getv ? :_isAwake;
+        bf %tmp.416 @_home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_271_15_280_8_if_end;
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_271_15_280_8_if_true:
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_271_29_280_8_start:
 [ "/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" 274 12 ]
-        %tmp.412 = lgetv %dc;
-        symbol [ dc %tmp.412 274 12 14 ];
-        symbol [ setColor %tmp.413 274 15 23 ];
-        %tmp.413 = getv function %tmp.412 :setColor;
-        symbol [ Graphics %tmp.414 274 24 32 ];
-        %tmp.414 = getm $.Toybox.Graphics;
-        symbol [ COLOR_RED %tmp.415 274 33 42 ];
-        %tmp.415 = getv %tmp.414 :COLOR_RED;
-        symbol [ Graphics %tmp.416 274 44 52 ];
-        %tmp.416 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.417 274 53 70 ];
-        %tmp.417 = getv %tmp.416 :COLOR_TRANSPARENT;
-        invoke %tmp.412 %tmp.413(%tmp.415, %tmp.417);
+        %tmp.417 = lgetv %dc;
+        symbol [ dc %tmp.417 274 12 14 ];
+        symbol [ setColor %tmp.418 274 15 23 ];
+        %tmp.418 = getv function %tmp.417 :setColor;
+        symbol [ Graphics %tmp.419 274 24 32 ];
+        %tmp.419 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.420 274 33 42 ];
+        %tmp.420 = getv %tmp.419 :COLOR_RED;
+        symbol [ Graphics %tmp.421 274 44 52 ];
+        %tmp.421 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.422 274 53 70 ];
+        %tmp.422 = getv %tmp.421 :COLOR_TRANSPARENT;
+        invoke %tmp.417 %tmp.418(%tmp.420, %tmp.422);
 [ "/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" 275 12 ]
         [ "_home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_271_29_280_8_start" "_home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_271_29_280_8_stop" ]
         %secondHand.19 = local;
         symbol [ secondHand %secondHand.19 275 16 26 ];
-        %tmp.418 = lgetv %clockTime.1;
-        symbol [ clockTime %tmp.418 275 30 39 ];
-        symbol [ sec %tmp.419 275 40 43 ];
-        %tmp.419 = getv %tmp.418 :sec;
-        %tmp.420 = 60.0;
-        %tmp.421 = div %tmp.419 %tmp.420;
-        symbol [ Math %tmp.422 275 54 58 ];
-        %tmp.422 = getm $.Toybox.Math;
-        symbol [ PI %tmp.423 275 59 61 ];
-        %tmp.423 = getv %tmp.422 :PI;
-        %tmp.424 = mul %tmp.421 %tmp.423;
-        %tmp.425 = 2;
-        %tmp.426 = mul %tmp.424 %tmp.425;
-        lputv %secondHand.19 %tmp.426;
+        %tmp.423 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.423 275 30 39 ];
+        symbol [ sec %tmp.424 275 40 43 ];
+        %tmp.424 = getv %tmp.423 :sec;
+        %tmp.425 = 60.0;
+        %tmp.426 = div %tmp.424 %tmp.425;
+        symbol [ Math %tmp.427 275 54 58 ];
+        %tmp.427 = getm $.Toybox.Math;
+        symbol [ PI %tmp.428 275 59 61 ];
+        %tmp.428 = getv %tmp.427 :PI;
+        %tmp.429 = mul %tmp.426 %tmp.428;
+        %tmp.430 = 2;
+        %tmp.431 = mul %tmp.429 %tmp.430;
+        lputv %secondHand.19 %tmp.431;
         symbol [ secondHand %secondHand.19 275 16 26 ];
 [ "/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" 277 12 ]
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_277_12_279_12_if_stmt:
-        symbol [ _screenCenterPoint %tmp.428 277 16 34 ];
-        %tmp.428 = getv ? :_screenCenterPoint;
-        %tmp.429 = null;
-        %tmp.430 = ne %tmp.428 %tmp.429;
-        bf %tmp.430 @_home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_277_12_279_12_if_end;
+        symbol [ _screenCenterPoint %tmp.433 277 16 34 ];
+        %tmp.433 = getv ? :_screenCenterPoint;
+        %tmp.434 = null;
+        %tmp.435 = ne %tmp.433 %tmp.434;
+        bf %tmp.435 @_home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_277_12_279_12_if_end;
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_277_12_279_12_if_true:
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_277_44_279_12_start:
 [ "/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" 278 16 ]
-        %tmp.431 = lgetv %dc;
-        symbol [ dc %tmp.431 278 16 18 ];
-        symbol [ fillPolygon %tmp.432 278 19 30 ];
-        %tmp.432 = getv function %tmp.431 :fillPolygon;
-        %tmp.433 = self;
-        symbol [ generateHandCoordinates %tmp.434 278 31 54 ];
-        %tmp.434 = getv function %tmp.433 :generateHandCoordinates;
-        symbol [ _screenCenterPoint %tmp.436 278 55 73 ];
-        %tmp.436 = getv ? :_screenCenterPoint;
-        %tmp.437 = as %tmp.436 { (!Null) };
-        %tmp.438 = lgetv %secondHand.19;
-        symbol [ secondHand %tmp.438 278 75 85 ];
-        %tmp.439 = lgetv %dc;
-        symbol [ dc %tmp.439 278 87 89 ];
-        symbol [ getHeight %tmp.440 278 90 99 ];
-        %tmp.440 = getv function %tmp.439 :getHeight;
-        %tmp.441 = invoke %tmp.439 %tmp.440();
-        %tmp.442 = 4;
-        %tmp.443 = div %tmp.441 %tmp.442;
-        %tmp.444 = 20;
-        %tmp.445 = lgetv %dc;
-        symbol [ dc %tmp.445 278 111 113 ];
-        symbol [ getWidth %tmp.446 278 114 122 ];
-        %tmp.446 = getv function %tmp.445 :getWidth;
-        %tmp.447 = invoke %tmp.445 %tmp.446();
-        %tmp.448 = 120;
-        %tmp.449 = div %tmp.447 %tmp.448;
-        %tmp.450 = invoke %tmp.433 %tmp.434(%tmp.437, %tmp.438, %tmp.443, %tmp.444, %tmp.449);
-        invoke %tmp.431 %tmp.432(%tmp.450);
+        %tmp.436 = lgetv %dc;
+        symbol [ dc %tmp.436 278 16 18 ];
+        symbol [ fillPolygon %tmp.437 278 19 30 ];
+        %tmp.437 = getv function %tmp.436 :fillPolygon;
+        %tmp.438 = self;
+        symbol [ generateHandCoordinates %tmp.439 278 31 54 ];
+        %tmp.439 = getv function %tmp.438 :generateHandCoordinates;
+        symbol [ _screenCenterPoint %tmp.441 278 55 73 ];
+        %tmp.441 = getv ? :_screenCenterPoint;
+        %tmp.442 = as %tmp.441 { (!Null) };
+        %tmp.443 = lgetv %secondHand.19;
+        symbol [ secondHand %tmp.443 278 75 85 ];
+        %tmp.444 = lgetv %dc;
+        symbol [ dc %tmp.444 278 87 89 ];
+        symbol [ getHeight %tmp.445 278 90 99 ];
+        %tmp.445 = getv function %tmp.444 :getHeight;
+        %tmp.446 = invoke %tmp.444 %tmp.445();
+        %tmp.447 = 4;
+        %tmp.448 = div %tmp.446 %tmp.447;
+        %tmp.449 = 20;
+        %tmp.450 = lgetv %dc;
+        symbol [ dc %tmp.450 278 111 113 ];
+        symbol [ getWidth %tmp.451 278 114 122 ];
+        %tmp.451 = getv function %tmp.450 :getWidth;
+        %tmp.452 = invoke %tmp.450 %tmp.451();
+        %tmp.453 = 120;
+        %tmp.454 = div %tmp.452 %tmp.453;
+        %tmp.455 = invoke %tmp.438 %tmp.439(%tmp.442, %tmp.443, %tmp.448, %tmp.449, %tmp.454);
+        invoke %tmp.436 %tmp.437(%tmp.455);
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_277_44_279_12_stop:
         goto @_home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_277_12_279_12_if_end;
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_277_12_279_12_if_end:
@@ -2110,9 +2117,9 @@ _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_271_29_280_8_st
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_271_15_280_8_if_end:
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_267_8_280_8_if_end:
 [ "/home/user/New3BingfaWatchFace/source/new3bingfawatchfaceView.mc" 282 8 ]
-        %tmp.451 = false;
+        %tmp.456 = false;
         symbol [ _fullScreenRefresh ? 282 8 26 ];
-        putv self :_fullScreenRefresh %tmp.451;
+        putv self :_fullScreenRefresh %tmp.456;
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_164_47_283_4_stop:
     }
     //! Draw the date string into the provided buffer at the specified location
@@ -2197,17 +2204,24 @@ _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_289_80_295_4_st
         symbol [ x %tmp.34 294 20 21 ];
         %tmp.35 = lgetv %y;
         symbol [ y %tmp.35 294 23 24 ];
-        symbol [ Graphics %tmp.36 294 26 34 ];
-        %tmp.36 = getm $.Toybox.Graphics;
-        symbol [ FONT_MEDIUM %tmp.37 294 35 46 ];
-        %tmp.37 = getv %tmp.36 :FONT_MEDIUM;
-        %tmp.38 = lgetv %dateStr.2;
-        symbol [ dateStr %tmp.38 294 48 55 ];
-        symbol [ Graphics %tmp.39 294 57 65 ];
-        %tmp.39 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.40 294 66 85 ];
-        %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.32 %tmp.33(%tmp.34, %tmp.35, %tmp.37, %tmp.38, %tmp.40);
+        symbol [ WatchUi %tmp.36 294 26 33 ];
+        %tmp.36 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.37 294 34 46 ];
+        %tmp.37 = getv function %tmp.36 :loadResource;
+        symbol [ Rez %tmp.39 294 47 50 ];
+        %tmp.39 = getv ? :Rez;
+        symbol [ Fonts %tmp.40 294 51 56 ];
+        %tmp.40 = getv %tmp.39 :Fonts;
+        symbol [ id_font_jbmono48 %tmp.41 294 57 73 ];
+        %tmp.41 = getv %tmp.40 :id_font_jbmono48;
+        %tmp.42 = invoke %tmp.36 %tmp.37(%tmp.41);
+        %tmp.43 = lgetv %dateStr.2;
+        symbol [ dateStr %tmp.43 294 76 83 ];
+        symbol [ Graphics %tmp.44 294 85 93 ];
+        %tmp.44 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.45 294 94 113 ];
+        %tmp.45 = getv %tmp.44 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.32 %tmp.33(%tmp.34, %tmp.35, %tmp.42, %tmp.43, %tmp.45);
 _home_user_New3BingfaWatchFace_source_new3bingfawatchfaceView_mc_289_80_295_4_stop:
     }
     //! Handle the partial update event
